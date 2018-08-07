@@ -1,0 +1,49 @@
+html, body {
+    font-family: 'PT-Sans', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#main_nav {
+    background-color: white;
+    height: 70px;
+}
+#main_nav .navbar-brand {
+    color: green;
+}
+.jumbotron {
+     margin-bottom: 0;
+     top:0;
+     left:0;
+     height: 500px;
+}
+#info_jumbotron {
+     background: url("assets/nyc_background8.jpg") no-repeat center bottom;
+     height: 800px;
+     background-size: cover;
+     overflow: hidden;
+     position:relative;
+     top:0;
+     left:0;
+}
+ #info_jumbotron:before{
+     content: '';
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     background-color: #42f495;
+     opacity: 0.6;
+}
+#info_text {
+    color: white;
+    position: relative;
+}
+.lead {
+     line-height: 1.4em;
+     letter-spacing: .1em;
+     font-size: 1.4em;
+}
+#info_text h1 {
+    font-size: 5em;
+}
