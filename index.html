@@ -7,21 +7,27 @@
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/smooth-scroll.js/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg fixed-top navbar-light pl-5" id="main_nav">
-		<a class="navbar-brand" href="">Coding for Impact</a><br>
+		<a class="navbar-brand" href="/" style="color: #1d4587;">Coding for Impact</a><br>
 		<br>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 		<div class="collapse navbar-collapse ml-5" id="navbar-links">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link" data-scroll href="#about">About Us</a>
+                </li>
 				<li class="nav-item">
 					<a class="nav-link link" data-scroll href="#mission">Mission</a>
 				</li>
@@ -34,41 +40,106 @@
 			</ul>
 		</div>
 	</nav>
-    <div class="jumbotron jumbotron-fluid mt-5" id="info_jumbotron">
+    <div class="jumbotron mt-5" id="info_jumbotron">
         <div id="nyc_background" class="pt-5">
 		<div class="container mt-5" id="info_text">
-			<h1 class="display-4 text-center">Coding for Impact</h1>
-			<h3 class="text-center"><em>Site under construction</em></h3><br>
-            <p class="lead" style="font-weight: 300;"> Founded in the Summer of 2018, <span class="font-weight-bold">Coding for Impact</span> is a club formed at Hunter College High School, dedicated to driving a positive impact in our society, through the implementation of software-based services for non-profit organizations, charities, and education platforms.
+			<h1 class="display-4 text-center" style="color: #1d4587; color: white;">Coding for Impact</h1><br>
+            <p class="lead" style=""> Founded in the Summer of 2018, <span class="font-weight-bold">Coding for Impact</span> is a student-led club formed at Hunter College High School, dedicated to driving a positive impact in our society, through the implementation of software-based services for non-profit organizations, charities, and education platforms.
 			<br>
 			</p><br>
 			<br>
 			<br>
 			<br>
-			<!--<button type="button" class="btn btn-success">See the code</button>-->
 		</div>
         </div>
 	</div>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="height: 1500px;" id="main_jumbotron">
         <div class="container">
-            <h1 class="display-4 text-center" id="mission">Mission</h1>
+            <!-- About Us -->
+            <h1 class="display-4" id="about">About Us <i class="fas fa-code" style="font-size:40px;"></i></h1><hr><br />
+            <p class="lead">We are a group of highly motivated and hard-working high school students, willing to work with any non-profit on any type of project, from web design to app development to even search engine optimization. </p><br />
+            
+            
+            <!-- Projects -->
+            <h1 class="display-4" id="projects">Projects <i class="fa fa-laptop-code" style="font-size:40px;"></i></h1><hr><br />
+            <p class="lead">During and outside of school, we actively work on volunteer projects for non-profits, charities, and causes that we care about. We deployed our first project, <a href="https://www.nycconnector.org" target="_blank">NYC Connector</a>, in the summer of 2018. NYC Connector allows users to easily find and locate nearby places where they can volunteer at, donate to, or find help at in NYC.</p> <br />
+            <p><a class="btn btn-primary btn-lg" href="/projects" role="button" style="color: white;">See more <i class="fa fa-arrow-right" style="font-size: 20px; vertical-align: middle;"></i></a></p><br /><br />
+            
+            <!-- Mission -->
+            <h1 class="display-4" id="mission">Mission <i class="fas fa-hand-holding-heart" style="font-size: 40px;"></i></h1><hr><br />
+            <p class="lead">Our mission is to contribute to the community as much as we can by applying our passions of coding to help non-profits, charities, and community service centers. Our goal is to have a positive <span class="font-weight-bold">impact</span> on the world through code.</p><br /><br />
+            
+            <!-- Contact -->
+            <h1 class="display-4" id="contact">Contact Us <i class="fas fa-envelope"></i></h1><hr><br />
+            <p class="lead">Questions or want to get involved? Email us at <a href="mailto:codingforimpact@gmail.com">codingforimpact@gmail.com</a>.</p>
+            
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="footer_jumbotron">
         <div class="container">
-            <h1 class="display-4 text-center" id="projects">Projects</h1>
-            <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="assets/logo1.png" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">NYC Connector</h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary">See Code</a>
-  </div>
-</div>
+            <h1 class="display-4 text-center" style="color: white; font-size: 1.5em;">Coding for Impact</h1>
         </div>
     </div>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        $(document).ready(function(){
+
+            /*! Fades in page on load */
+            $('body').css('display', 'none');
+            $('body').fadeIn(1400);
+
+        });
+        
+        var scroll = new SmoothScroll('a[href*="#"]', {
+                                    
+            // Selectors
+            ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+            header: null, // Selector for fixed headers (must be a valid CSS selector)
+            topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
+
+            // Speed & Easing
+            speed: 750, // Integer. How fast to complete the scroll in milliseconds
+            clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
+            offset: function(anchor, toggle) {
+                return 90;
+            },
+            easing: 'easeInOutCubic', // Easing pattern to use
+            customEasing: function(time) {
+
+            // Function. Custom easing pattern
+            // If this is set to anything other than null, will override the easing option above
+
+            // return <your formulate with time as a multiplier>
+
+            // Example: easeInOut Quad
+                return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+
+            },
+
+            // History
+            updateURL: false, // Update the URL on scroll
+            popstate: false, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
+
+            // Custom Events
+            emitEvents: true // Emit custom events
+
+        });
+        
+         if ( "onhashchange" in window ) {
+            var hashHandler = function(){
+                var hash = window.location.hash.substring( 1 );
+                if ( !hash )
+                return;
+
+                var offset = -90;
+                var sel = '[id="' + hash + '"], a[name="' + hash + '"]';
+                var currentOffset = $( sel ).offset().top;
+
+                $( window ).scrollTop( currentOffset + offset );
+            };
+             
+            window.addEventListener("hashchange", hashHandler, false);
+            window.addEventListener("load", hashHandler, false);
+        }
     </script>
 </body>
 </html>
