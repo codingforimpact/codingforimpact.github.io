@@ -70,6 +70,10 @@ html, body {
 #main_jumbotron .container h1 {
     color: #1d4587;
 }
+#main_jumbotron ul li {
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
 .jumbotron a {
     color: #1d4587;
 }
