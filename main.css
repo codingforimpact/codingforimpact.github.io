@@ -1,10 +1,89 @@
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro','Roboto', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
 }
 
 /* Header */
+
+.jumbotron {
+     margin-bottom: 0;
+     top:0;
+     left:0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2f628c;
+    border: 0;
+    letter-spacing: 4px;
+    opacity:0.9;
+    height: 60px;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+#info_jumbotron {
+     background: url("assets/nycbackground.jpg") no-repeat;
+     height: 800px;
+     background-attachment: fixed;
+     background-size: cover;
+     overflow: hidden;
+     position:relative;
+     top:0;
+     left:0;
+}
+
+ #info_jumbotron:before{
+     content: '';
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     opacity: 0.6;
+}
+
+#main_text {
+    color: white;
+}
+
+/*
 
 #main_nav {
     background-color: white;
@@ -14,9 +93,6 @@ html, body {
 }
 #main_nav .navbar-brand {
     color: #4286f4;
-}
-#main_nav .link {
-    color: ;
 }
 .jumbotron {
      margin-bottom: 0;
@@ -31,9 +107,7 @@ html, body {
      overflow: hidden;
      position:relative;
      top:0;
-     left:0;*/
-     background-color: white;
-     
+     left:0;
 }
 
  #info_jumbotron:before{
@@ -49,17 +123,21 @@ html, body {
 #info_text {
     color: white;
     position: relative;
-}
+}*/
 .lead {
      line-height: 1.5em;
      letter-spacing: .1em;
      font-size: 1.5em;
 }
 #info_text h1 {
+    margin-top: 5%;
     font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 .link {
-    margin-right: 30px;
+    margin-right: 20px;
+    font-size: .9em;
 }
 #main_jumbotron .display-4 i {
         font-size: 40px;
@@ -68,7 +146,7 @@ html, body {
     background-color: white;
 }
 #main_jumbotron .container h1 {
-    color: #1d4587;
+    color: #2f628c;
 }
 #main_jumbotron ul li {
     font-size: 1.5em;
@@ -78,8 +156,8 @@ html, body {
     color: #1d4587;
 }
 #footer_jumbotron {
-    background-color: #1d4587;
-    height: 250px;
+    background-color: steelblue;
+    height: 200px;
 }
 
 @media (min-device-width : 200px) and (max-device-width : 800px) {

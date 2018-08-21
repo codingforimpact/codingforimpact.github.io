@@ -18,13 +18,13 @@
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/smooth-scroll.js/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
+    <!--
 	<nav class="navbar navbar-expand-lg fixed-top navbar-light pl-5" id="main_nav">
 		<a class="navbar-brand" href="/" style="color: #1d4587;">Coding for Impact</a><br>
 		<br>
@@ -54,7 +54,8 @@
     <div class="jumbotron mt-5" id="info_jumbotron">
         <div id="nyc_background" class="pt-5">
 		<div class="container mt-5" id="info_text" style="font-family: sans-serif;">
-			<h1 class="display-4 text-center" style="color: #1d4587; color: white;">Coding for Impact</h1><br>
+			<h1 class="display-4 text-center" style="color: #1d4587; color: white;">Coding for Impact</h1>
+            <h3 class="text-center"><em>Coding websites and apps for non-profits and charities.</em></h3><br /><br/ >
             <p class="lead"> Founded in the Summer of 2018, <span class="font-weight-bold">Coding for Impact</span> is a student-led club formed at Hunter College High School, dedicated to driving a positive impact in our society through the implementation of software-based services for non-profit organizations, charities, and education platforms.
 			<br>
 			</p><br>
@@ -63,12 +64,50 @@
 			<br>
 		</div>
         </div>
-	</div>
+	</div>-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" id="main_nav" class="transparent">
+            <a class="navbar-brand" href="/" style="color: #1d4587;">Coding for Impact</a><br>
+		<br>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbar-links">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#mission">Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#resources">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="cover jumbotron jumbotron-fluid" id="info_jumbotron">
+            <div class="container mt-5 pt-5" id="info_text">
+                        <div id="main_text">
+                              <h1 class="text-center display-4">Coding for Impact</h1><br />
+
+                            <h2 class="text-center" style="font-size: 2em;"><em>Building websites and apps for non-profits and charities.</em></h2><br /><br />
+                        </div> 
+            </div>
+        </div>
+    
     <div class="jumbotron jumbotron-fluid" style="height: 2800px;" id="main_jumbotron">
         <div class="container">
             <!-- About Us -->
             <h1 class="display-4" id="about">About Us <i class="fas fa-code"></i></h1><hr><br />
-            <p class="lead">We are a group of highly motivated and hard-working high school students, willing to work with any non-profit on any type of project, from web design to app development to even search engine optimization. </p><br />
+            <p class="lead">Founded in the Summer of 2018, Coding for Impact is a student-led club formed at Hunter College High School, dedicated to driving a positive impact in our society through the implementation of software-based services for non-profit organizations, charities, and education platforms. <br /> <br />We are a group of highly motivated and hard-working high school students, willing to work with any non-profit on any type of project, from web design to app development to even search engine optimization. </p><br />
             
             
             <!-- Mission -->
@@ -77,8 +116,12 @@
             
             <!-- Projects -->
             <h1 class="display-4" id="projects">Projects <i class="fa fa-laptop-code"></i></h1><hr><br />
-            <p class="lead">During and outside of school, we actively work on volunteer projects for non-profits, charities, and causes that we care about. We deployed our first project, <a href="https://www.nycconnector.org" target="_blank">NYC Connector</a>, in the summer of 2018. NYC Connector allows users to easily find and locate nearby places where they can volunteer at, donate to, or find help at in NYC. Click <a target="_blank" href="https://github.com/codingforimpact/NYC-Connector">here</a> to see the code.</p> <br />
-            <p><a class="btn btn-primary btn-lg" href="/projects" role="button" style="color: white; background-color: #1d4587; border-color: #1d4587;">See more <i class="fa fa-arrow-right" style="vertical-align: middle;"></i></a></p><br /><br />
+            <p class="lead">During and outside of school, we actively work on volunteer projects for non-profits, charities, and causes that we care about. We deployed our first project, <a href="https://www.nycconnector.org" target="_blank">NYC Connector</a>, in the summer of 2018. NYC Connector allows users to easily find and locate nearby places where they can volunteer at, donate to, or find help at in NYC. Click <a target="_blank" href="https://github.com/codingforimpact/NYC-Connector">here</a> to see the code.</p> 
+            
+            <p><a class="btn btn-primary btn-lg" href="/projects" role="button" style="color: white; background-color: #1d4587; border-color: #1d4587;">See more <i class="fa fa-arrow-right" style="vertical-align: middle;"></i></a></p>
+            
+            <br /><br />
+
             
             <!-- Links -->
             <h1 class="display-4" id="resources">Coding Resources</h1><hr class="my-4"><br />
@@ -122,7 +165,7 @@
             speed: 750, // Integer. How fast to complete the scroll in milliseconds
             clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
             offset: function(anchor, toggle) {
-                return 90;
+                return 80;
             },
             easing: 'easeInOutCubic', // Easing pattern to use
             customEasing: function(time) {
@@ -152,7 +195,7 @@
                 if ( !hash )
                 return;
 
-                var offset = -90;
+                var offset = -80;
                 var sel = '[id="' + hash + '"], a[name="' + hash + '"]';
                 var currentOffset = $( sel ).offset().top;
 
