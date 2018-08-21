@@ -21,7 +21,7 @@ html, body {
 }
 
 .transparent {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* Add a gray color to all navbar links */
@@ -146,7 +146,7 @@ html, body {
     margin-bottom: 1%;
 }
 .jumbotron a {
-    color: #1d4587;
+    color: #164596;
 }
 #footer_jumbotron {
     background-color:  #2f628c;
