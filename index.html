@@ -65,7 +65,7 @@
 		</div>
         </div>
 	</div>-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top" id="main_nav" class="transparent">
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light fixed-top transparent" id="main_nav">
             <a class="navbar-brand" href="/" style="color: #1d4587;">Coding for Impact</a><br>
 		<br>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
@@ -205,6 +205,17 @@
             window.addEventListener("hashchange", hashHandler, false);
             window.addEventListener("load", hashHandler, false);
         }
+        
+        $(window).scroll(function(e) {
+                var jumbotronHeight = $("#info_jumbotron").outerHeight() - 100;
+                var scrollTop = $(this).scrollTop();
+                if(scrollTop >= jumbotronHeight) {
+                    $("#main_nav").removeClass("transparent");
+                }
+                if(scrollTop <= jumbotronHeight) {
+                    $("#main_nav").addClass("transparent");
+                }
+            });
     </script>
 </body>
 </html>
