@@ -14,14 +14,18 @@ html, body {
 
 .navbar {
     margin-bottom: 0;
-    background-color: #2f628c;
     border: 0;
     letter-spacing: 4px;
     height: 60px;
+    background-color: rgb(47, 98, 140);
+}
+
+.navbar-background {
+    background-color: #2f628c;
 }
 
 .transparent {
-    opacity: 0.8;
+    background-color: rgba(47, 98, 140, 0.8);
 }
 
 /* Add a gray color to all navbar links */
@@ -53,8 +57,7 @@ html, body {
 
 #info_jumbotron {
      background: url("assets/nycbackground.jpg") no-repeat center top;
-     height: 800px;
-     background-attachment: fixed;
+     height: 850px;
      background-size: cover;
      overflow: hidden;
      position:relative;
