@@ -156,6 +156,20 @@ html, body {
     height: 200px;
 }
 
+@media (min-width: 2400px) { 
+    #info_jumbotron {
+        padding-top: 7%;
+        font-size: 1.3em;
+        height: 95vh;
+    }
+    .jumbotron p {
+        font-size: 1.6em;
+    }
+    #footer_jumbotron {
+        height: 50vh;
+    }
+}
+
 @media (min-device-width : 200px) and (max-device-width : 800px) {
     html, body {
         font-size: 12px;
