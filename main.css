@@ -4,6 +4,10 @@ html, body {
     overflow-x: hidden;
 }
 
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
 /* Header */
 
 .jumbotron {
@@ -16,47 +20,29 @@ html, body {
     margin-bottom: 0;
     border: 0;
     letter-spacing: 4px;
-    height: 60px;
-    background-color: rgb(47, 98, 140);
+    height: 80px;
+    background-color: white;
 }
-
-.navbar-background {
-    background-color: #2f628c;
-}
-
-.transparent {
-    background-color: rgba(47, 98, 140, 0.8);
-}
-
-/* Add a gray color to all navbar links */
+        
 .navbar li a, .navbar .navbar-brand { 
-    color: #d5d5d5 !important;
+    color: #224377 !important;
 }
 
-/* On hover, the links will turn white */
-.navbar-nav li a:hover {
-    color: #fff !important;
+.navbar li a:hover {
+    color: black !important;
 }
-
-/* The active link */
-.navbar-nav li.active a {
-    color: #fff !important;
-    background-color:#29292c !important;
+        
+h1 {
+    font-family: 'Fjalla One';
 }
-
-/* Remove border color from the collapsible button */
-.navbar-default .navbar-toggle {
-    border-color: transparent;
+        
+h3, h4 {
+    font-family: 'Droid Sans';
 }
-
-/* Dropdown */
-.open .dropdown-toggle {
-    color: #fff ;
-    background-color: #555 !important;
-}
-
-#info_jumbotron {
-     background: url("assets/nycbackground.jpg") no-repeat center top;
+        
+#firstJumbotron {
+    margin-top: 80px;
+     background: url("background.jpeg") no-repeat center top;
      height: 850px;
      background-size: cover;
      overflow: hidden;
@@ -65,127 +51,215 @@ html, body {
      left:0;
 }
 
- #info_jumbotron:before{
-     content: '';
-     position: absolute;
-     top: 0;
-     right: 0;
-     left: 0;
-     bottom: 0;
-     opacity: 0.6;
+#firstJumbotron h1 {
+    font-family: 'Abril Fatface';
+    font-size: 5.5em;
+    margin-top: 8%;
+    color: indianred;
 }
+        
+#firstJumbotron h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: pink;
+}
+        
+#secondJumbotron {
+    background: url("backgrounds/background1.jpg") no-repeat center top;
+    background-attachment: fixed;
+    height: 650px;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    top:0;
+    left:0;
+}
+        
+        #secondJumbotronCenterDiv {
+            background-color: rgba(222, 229, 239, 0.8);
+            color: #1e3b66;
+            width: 80%;
+            height: 50%;
+            margin: auto;
+            margin-top: 10%;
+            float: none;
+            text-align: center;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        
+        #secondJumbotronCenterDiv .display-4 {
+            line-height:1.2em;
+            font-family: 'Droid Sans';
+            font-weight: 400;
+            font-size: 2.5em;
+        }
+        
+        #thirdJumbotron {
+            background-color: #00ffce;
+            position: relative;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            height: 100%;
+        }
+        
+        #thirdJumbotron img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        #thirdJumbotron h1 {
+            color: #2f55a8;
+            font-size: 5.5em;
+        }
 
-#main_text {
-    color: white;
-}
-
-/*
-
-#main_nav {
-    background-color: white;
-     -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
-    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
-    box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
-}
-#main_nav .navbar-brand {
-    color: #4286f4;
-}
-.jumbotron {
-     margin-bottom: 0;
-     top:0;
-     left:0;
-}
-#info_jumbotron {
-     background: url("assets/nyc_background8.jpg") no-repeat center bottom;
-     height: 750px;
-     background-attachment: fixed;
-     background-size: cover;
-     overflow: hidden;
-     position:relative;
-     top:0;
-     left:0;
-}
-
- #info_jumbotron:before{
-     content: '';
-     position: absolute;
-     top: 0;
-     right: 0;
-     left: 0;
-     bottom: 0;
-     background-color: rgba(0, 83, 255, 0.65);
-     opacity: 0.6;
-}
-#info_text {
-    color: white;
-    position: relative;
-}*/
-.lead {
-     line-height: 1.5em;
-     letter-spacing: .1em;
-     font-size: 1.5em;
-}
-#info_text h1 {
-    margin-top: 5%;
-    font-size: 5em;
-    font-family: sans-serif;
-    font-weight: 500;
-}
-.link {
-    margin-right: 20px;
-    font-size: .9em;
-}
-#main_jumbotron .display-4 i {
-        font-size: 40px;
-}
-#main_jumbotron {
-    background-color: white;
-}
-#main_jumbotron .container h1 {
-    color: #2f628c;
-}
-#main_jumbotron ul li {
+#thirdJumbotron .lead {
+    line-height: 1.5em;
     font-size: 1.5em;
-    margin-bottom: 1%;
-}
-.jumbotron a {
-    color: #164596;
-}
-#footer_jumbotron {
-    background-color:  #2f628c;
-    height: 200px;
+    font-family: 'Fjalla One';
+    
 }
 
-@media (min-width: 2400px) { 
-    #info_jumbotron {
-        padding-top: 7%;
-        font-size: 1.3em;
-        height: 95vh;
-    }
-    .jumbotron p {
-        font-size: 1.6em;
-    }
-    #footer_jumbotron {
-        height: 50vh;
-    }
+#thirdJumbotron img {
+    width: 450px;
+    height: 450px;
 }
 
-@media (min-device-width : 200px) and (max-device-width : 800px) {
-    html, body {
-        font-size: 12px;
-    }
-    #info_jumbotron {
-        height: 400px;
-        font-size: 7px;
-        background-attachment: inherit;
-    }
-    #main_nav img {
-        height: 40px;
-        width: 110px;
-    }
-    #main_jumbotron .display-4, #main_jumbotron .display-4 i {
-        font-size: 20px;
-    }
+#thirdJumbotron h3 {
+    color: white;
+}
+        
+#buttons .btn {
+    font-family: 'Droid Sans';
+    font-size: 1.3em;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid white;
+    color: #2f55a8;
+    padding: 10px 25px;
+    font-weight: bold;
 }
 
+#buttons .btn:hover {
+    border: 2px solid indianred;
+}
 
+#fourthJumbotron h1 {
+    color: #234c8e;
+    font-size: 4.5em;
+}
+
+#fourthJumbotron h3 {
+    color: #234c8e;
+    font-family: 'Fjalla One';
+    font-size: 2.2em;
+}
+
+#fourthJumbotron img {
+    width: 300px;
+    height: 300px;
+}
+
+#fifthJumbotron {
+    background-color: #3181b7;
+}
+
+#fifthJumbotron h4 {
+    color: white;
+    font-weight: bold;
+}
+
+#fifthJumbotron h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4.5em;
+}
+
+#fifthJumbotron .card {
+    width: 30vw;
+    margin-right: 0;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+#fifthJumbotron .card .card-img-top {
+    height: 400px;
+    transition: all 0.5s ease;
+    cursor:pointer;
+}
+
+#fifthJumbotron .card .card-img-top:hover {
+    opacity: 0.8;
+}
+
+#fifthJumbotron .card .card-body {
+    color: white;
+    font-size: 1em;
+}
+
+#fifthJumbotron .btn {
+    background-color: #294a60;
+    border-color: #294a60;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+#fifthJumbotron .btn:hover {
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+}
+
+#resources {
+    
+}
+
+#resources p {
+    font-size: 1.8em;
+}
+
+#resources h1 {
+    color: #2f55a8;
+}
+
+#resources ul li {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+#footer {
+    height: 700px;
+    background-color: white;
+}
+
+#footer p {
+    font-size: 2em;
+}
+
+#bottomFooter {
+    background-color: aqua
+}
+
+#getintouch {
+    font-size: 30px;
+    color:white;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center
+}
+
+#copyright {
+    font-size: 16px;
+    color: black;
+    text-align: center
+}
+
+#emailusbtn {
+    color:orange;
+    background-color: white;
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder
+}
