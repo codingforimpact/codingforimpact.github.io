@@ -67,7 +67,7 @@ h3, h4 {
 #secondJumbotron {
     background: url("backgrounds/background1.jpg") no-repeat center top;
     background-attachment: fixed;
-    height: 650px;
+    height: 700px;
     background-size: cover;
     overflow: hidden;
     position:relative;
