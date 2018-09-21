@@ -97,6 +97,7 @@ h3, h4 {
         
         #thirdJumbotron {
             background-color: #00ffce;
+            background-color: #45f9b1;
             position: relative;
             overflow: hidden;
             top: 0;
@@ -117,7 +118,7 @@ h3, h4 {
 #thirdJumbotron .lead {
     line-height: 1.5em;
     font-size: 1.5em;
-    font-family: 'Fjalla One';
+    font-family: 'Droid Sans';
     
 }
 
