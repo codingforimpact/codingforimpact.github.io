@@ -31,7 +31,17 @@ a, a:visited, a:hover {
 .navbar li a:hover {
     color: black !important;
 }
-        
+  
+.navbar-brand img {
+    height: 65px;
+    width: 180px;
+    margin: 10px;
+}
+
+.navbar .link {
+    margin-right: 3px;
+}
+
 h1 {
     font-family: 'Fjalla One';
 }
@@ -55,13 +65,13 @@ h3, h4 {
     font-family: 'Abril Fatface';
     font-size: 5.5em;
     margin-top: 8%;
-    color: indianred;
+    color: #1a3868;
 }
         
 #firstJumbotron h3 {
     font-size: 2em;
     font-weight: bold;
-    color: pink;
+    color: #d2d822;
 }
         
 #secondJumbotron {
@@ -117,7 +127,7 @@ h3, h4 {
 #thirdJumbotron .lead {
     line-height: 1.5em;
     font-size: 1.5em;
-    font-family: 'Droid Sans';
+    font-family: 'Fjalla One';
     
 }
 
@@ -142,7 +152,7 @@ h3, h4 {
 }
 
 #buttons .btn:hover {
-    border: 2px solid indianred;
+    border: 2px solid #2f55a8;
 }
 
 #fourthJumbotron h1 {
