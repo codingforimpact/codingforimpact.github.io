@@ -106,7 +106,8 @@ h3, h4 {
         }
         
         #thirdJumbotron {
-            background-color: #00ffce;
+            /*background-color: #00ffce;*/
+            background-color: #79a1c2;
             position: relative;
             overflow: hidden;
             top: 0;
@@ -120,7 +121,7 @@ h3, h4 {
         }
         
         #thirdJumbotron h1 {
-            color: #2f55a8;
+            color: #2f72a8;
             font-size: 5.5em;
         }
 
