@@ -107,7 +107,7 @@ h3, h4 {
         
         #thirdJumbotron {
             /*background-color: #00ffce;*/
-            background-color: #79a1c2;
+            background-color: #214c70;
             position: relative;
             overflow: hidden;
             top: 0;
@@ -173,7 +173,7 @@ h3, h4 {
 }
 
 #fifthJumbotron {
-    background-color: #3181b7;
+    background-color: #214c70;
 }
 
 #fifthJumbotron h4 {
@@ -250,7 +250,7 @@ h3, h4 {
 }
 
 #bottomFooter {
-    background-color: aqua
+    background-color: #214c70;
 }
 
 #getintouch {
