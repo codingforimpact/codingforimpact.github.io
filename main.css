@@ -21,7 +21,8 @@ a, a:visited, a:hover {
     border: 0;
     letter-spacing: 4px;
     height: 80px;
-    background-color: white;
+    background-color: transparent;
+    /*background-color: white;*/
 }
         
 .navbar li a, .navbar .navbar-brand { 
@@ -51,7 +52,7 @@ h3, h4 {
 }
         
 #firstJumbotron {
-    margin-top: 80px;
+    
      background: url("assets/nycbackground.jpg") no-repeat center top;
      height: 850px;
      background-size: cover;
@@ -59,6 +60,10 @@ h3, h4 {
      position:relative;
      top:0;
      left:0;
+}
+
+#tagline1, #tagline2 {
+    display: none;
 }
 
 #firstJumbotron h1 {

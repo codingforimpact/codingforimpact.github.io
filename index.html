@@ -69,8 +69,8 @@
     
     <div class="jumbotron jumbotron-fluid" id="firstJumbotron">
         <div class="container">
-            <h1 class="display-4 text-center">CODING FOR IMPACT</h1>
-            <h3 class="text-center"><span id="tagline_below"></span></h3>
+            <h1 id="cfi" class="display-4 text-center"></h1>
+            <h3 class="text-center"><span id="tagline1">BUILDING TANGIBLE APPLICATIONS FOR NONPROFITS AND CHARITIES.</span> <span id="tagline2">FREE OF CHARGE.</span></h3>
             <br /><br />
             
             <div class="text-center" id="buttons">
@@ -82,22 +82,14 @@
     </div>
 
     <script>
-        new TypeIt('#tagline_below', {
-            speed: 50
+        var a = new TypeIt('#cfi', {
+            speed: 100
         })
-        .type("BUILDING TANGILBE APPLICATIO")
-        .move(-12, {speed: 60})
-        .delete(2, {speed: 100, delay: 500})
-        .type("BL")
-        .move("END", {speed: 45})
-        .type("NS FOR NOPROFITS AND ")
-        .move(-12)
-        .type("N")
-        .move("END")
-        .type("CHARITIES.")
-        .pause(1000)
-        .type(" FREE OF CHARGE.", {speed: 40})
+        .type("CODING FOR IMPACT")
         .go();
+
+        $("#tagline1").delay(3000).fadeIn(1000);
+        $("#tagline2").delay(5000).fadeIn(1000);
     </script>
     
     <div class="jumbotron jumbotron-fluid" id="secondJumbotron">
