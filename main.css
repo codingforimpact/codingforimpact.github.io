@@ -52,7 +52,7 @@ h3, h4 {
         
 #firstJumbotron {
     margin-top: 80px;
-     background: url("background.jpeg") no-repeat center top;
+     background: url("assets/nycbackground.jpg") no-repeat center top;
      height: 850px;
      background-size: cover;
      overflow: hidden;
@@ -65,13 +65,17 @@ h3, h4 {
     font-family: 'Abril Fatface';
     font-size: 5.5em;
     margin-top: 8%;
-    color: #1a3868;
+    color: white;
 }
         
 #firstJumbotron h3 {
     font-size: 2em;
     font-weight: bold;
-    color: #d2d822;
+    color: white;
+}
+
+#firstJumbotron h3 span {
+    /*background-color: black;*/
 }
         
 #secondJumbotron {

@@ -21,6 +21,9 @@
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/smooth-scroll.js/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.X.X/dist/typeit.min.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet" />
     <link rel="icon" href="favicon.png" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fjalla One:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic">
@@ -67,7 +70,7 @@
     <div class="jumbotron jumbotron-fluid" id="firstJumbotron">
         <div class="container">
             <h1 class="display-4 text-center">CODING FOR IMPACT</h1>
-            <h3 class="text-center">BUILDING TANGIBLE APPLICATIONS FOR NONPROFITS AND CHARITIES</h3>
+            <h3 class="text-center"><span id="tagline_below"></span></h3>
             <br /><br />
             
             <div class="text-center" id="buttons">
@@ -77,6 +80,25 @@
             
         </div>
     </div>
+
+    <script>
+        new TypeIt('#tagline_below', {
+            speed: 50
+        })
+        .type("BUILDING TANGILBE APPLICATIO")
+        .move(-12, {speed: 60})
+        .delete(2, {speed: 100, delay: 500})
+        .type("BL")
+        .move("END", {speed: 45})
+        .type("NS FOR NOPROFITS AND ")
+        .move(-12)
+        .type("N")
+        .move("END")
+        .type("CHARITIES.")
+        .pause(1000)
+        .type(" FREE OF CHARGE.", {speed: 40})
+        .go();
+    </script>
     
     <div class="jumbotron jumbotron-fluid" id="secondJumbotron">
         <div class="container">
