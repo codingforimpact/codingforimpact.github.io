@@ -279,6 +279,15 @@ Our developers design a few prototypes of the project, highlighting different te
     </div>
     
     <script>
+        $(window).scroll(function() {    // this will work when your window scrolled.
+            var height = $(window).scrollTop();  //getting the scrolling height of window
+            if(height  > 200) {
+                $("#main_nav").css({"background-color": "white", "position": "fixed"});
+            } else{
+                $("#main_nav").css({"background-color": "transparent"});
+            }
+	    });
+
         var scroll = new SmoothScroll('a[href*="#"]', {
                                     
     // Selectors
