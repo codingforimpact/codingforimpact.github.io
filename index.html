@@ -73,7 +73,7 @@
             <h3 class="text-center"><span id="tagline1">BUILDING TANGIBLE APPLICATIONS FOR NONPROFITS AND CHARITIES.</span> <span id="tagline2">FREE OF CHARGE.</span></h3>
             <br /><br />
             
-            <div class="text-center" id="buttons">
+            <div class="text-center" id="buttons" style="display: none;">
                 <a class="btn btn-primary mr-5" data-scroll href="#fifthJumbotron">Our Work</a>
                 <a class="btn btn-primary" data-scroll href="#footer">Work With Us</a>
             </div>
@@ -82,14 +82,23 @@
     </div>
 
     <script>
+        $(document).ready(function(){
+
+        /*! Fades in page on load */
+        $('body').css('display', 'none');
+        $('body').fadeIn(1500);
+        
         var a = new TypeIt('#cfi', {
-            speed: 100
+            speed: 150
         })
         .type("CODING FOR IMPACT")
         .go();
 
-        $("#tagline1").delay(3000).fadeIn(1000);
-        $("#tagline2").delay(5000).fadeIn(1000);
+        $("#tagline1").delay(4000).fadeIn(1000);
+        $("#tagline2").delay(6000).fadeIn(1000);
+        $("#buttons").delay(7500).fadeIn(500);
+
+        });
     </script>
     
     <div class="jumbotron jumbotron-fluid" id="secondJumbotron">
