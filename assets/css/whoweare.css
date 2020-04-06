@@ -1,0 +1,9 @@
+#firstJumbotron {
+    background: url("/assets/backgrounds/CFI.png") no-repeat center top;
+    height: 850px;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    top:0;
+    left:0;
+}

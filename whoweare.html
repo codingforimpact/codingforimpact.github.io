@@ -32,7 +32,8 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Andika:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic"><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Hind:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic"><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid Sans:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fjalla One:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic">
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="/assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/whoweare.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     
@@ -267,77 +268,7 @@ Our developers design a few prototypes of the project, highlighting different te
         <h6 id="copyright">Coding for Impact 2018</h6><br><br>
     </div>
 
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    
-    <script>
-
-        var scroll = new SmoothScroll('a[href*="#"]', {
-                                    
-    // Selectors
-    ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
-    header: null, // Selector for fixed headers (must be a valid CSS selector)
-    topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
-
-    // Speed & Easing
-    speed: 800, // Integer. How fast to complete the scroll in milliseconds
-    clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
-    offset: function(anchor, toggle) {
-        var id = $(toggle).attr("href");
-        var returnValue = 80;
-        if (id === "#fifthJumbotron") {
-            returnValue = 80;
-        }
-        if (id === "#thirdJumbotron") {
-            returnValue = 80;
-        }
-        return returnValue;
-    },
-    easing: 'easeInOutCubic', // Easing pattern to use
-    customEasing: function(time) {
-
-        // Function. Custom easing pattern
-        // If this is set to anything other than null, will override the easing option above
-
-        // return <your formulate with time as a multiplier>
-
-        // Example: easeInOut Quad
-        return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
-
-    },
-
-    // History
-    updateURL: false, // Update the URL on scroll
-    popstate: false, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
-
-    // Custom Events
-    emitEvents: true // Emit custom events
-
-});
-        
-    if ( "onhashchange" in window ) {
-        var hashHandler = function(){
-            var hash = window.location.hash.substring( 1 );
-            if ( !hash )
-                return;
-
-            var offset = 0;
-            offset = -80;
-            if (hash === "fifthJumbotron") {
-                offset = -80;
-            }
-            if (hash === "thirdJumbotron") {
-                offset = -80;
-            }
-            var sel = '[id="' + hash + '"], a[name="' + hash + '"]';
-            var currentOffset = $( sel ).offset().top;
-
-            $( window ).scrollTop( currentOffset + offset );
-        };
-        window.addEventListener("hashchange", hashHandler, false);
-        window.addEventListener("load", hashHandler, false);
-    }
-        
-    </script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
     
     <script type="application/ld+json">
         {

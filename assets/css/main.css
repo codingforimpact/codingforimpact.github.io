@@ -8,6 +8,18 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+.link {
+    color: white !important;
+}
+
+.link:hover {
+    color: black !important;
+}
+
+.black {
+    color: black !important;
+}
+
 /* Header */
 
 .jumbotron {
@@ -22,20 +34,11 @@ a, a:visited, a:hover {
     letter-spacing: 4px;
     height: 80px;
     background-color: transparent;
-    /*background-color: white;*/
-}
-        
-.navbar li a, .navbar .navbar-brand { 
-    color: #224377 !important;
-}
-
-.navbar li a:hover {
-    color: black !important;
 }
   
 .navbar-brand img {
     height: 65px;
-    width: 180px;
+    width: 125px;
     margin: 10px;
 }
 
@@ -52,8 +55,7 @@ h3, h4 {
 }
         
 #firstJumbotron {
-    
-     background: url("assets/cambodia.png") no-repeat center top;
+     background: url("/assets/backgrounds/cambodia.png") no-repeat center top;
      height: 850px;
      background-size: cover;
      overflow: hidden;
@@ -84,7 +86,7 @@ h3, h4 {
 }
         
 #secondJumbotron {
-    background: url("backgrounds/background1.jpg") no-repeat center top;
+    background: url("/assets/backgrounds/background1.jpg") no-repeat center top;
     background-attachment: fixed;
     height: 700px;
     background-size: cover;
@@ -93,46 +95,46 @@ h3, h4 {
     top:0;
     left:0;
 }
-        
-        #secondJumbotronCenterDiv {
-            background-color: rgba(222, 229, 239, 0.8);
-            color: #1e3b66;
-            width: 80%;
-            height: 50%;
-            margin: auto;
-            margin-top: 10%;
-            float: none;
-            text-align: center;
-            padding: 50px;
-            border-radius: 10px;
-        }
-        
-        #secondJumbotronCenterDiv .display-4 {
-            line-height:1.2em;
-            font-family: 'Droid Sans';
-            font-weight: 400;
-            font-size: 2.5em;
-        }
-        
-        #thirdJumbotron {
-            /*background-color: #00ffce;*/
-            background-color: #9be9de;
-            position: relative;
-            overflow: hidden;
-            top: 0;
-            left: 0;
-            height: 100%;
-        }
-        
-        #thirdJumbotron img {
-            height: 250px;
-            width: 250px;
-        }
-        
-        #thirdJumbotron h1 {
-            color: #2f72a8;
-            font-size: 5.5em;
-        }
+
+#secondJumbotronCenterDiv {
+    background-color: rgba(222, 229, 239, 0.8);
+    color: #1e3b66;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10%;
+    float: none;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#secondJumbotronCenterDiv .display-4 {
+    line-height:1.2em;
+    font-family: 'Droid Sans';
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+#thirdJumbotron {
+    /*background-color: #00ffce;*/
+    background-color: #9be9de;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#thirdJumbotron img {
+    height: 250px;
+    width: 250px;
+}
+
+#thirdJumbotron h1 {
+    color: #2f72a8;
+    font-size: 5.5em;
+}
 
 #thirdJumbotron .lead {
     line-height: 1.5em;
@@ -162,7 +164,7 @@ h3, h4 {
 }
 
 #buttons .btn:hover {
-    border: 2px solid #2f55a8;
+    border: 2px solid black;
 }
 
 #fourthJumbotron h1 {
