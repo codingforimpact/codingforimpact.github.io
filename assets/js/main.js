@@ -44,10 +44,6 @@ $(function() {
                 setTimeout(function() {
                     b.go();
                 }, 7000);
-        
-                $("#tagline1").delay(5000).fadeIn(1000);
-                //$("#topCarousel").delay(7000).fadeIn(1000);
-                $("#buttons").delay(8500).fadeIn(500);
             } else {
                 var a = new TypeIt('#cfi', {
                     speed: 150
@@ -59,23 +55,23 @@ $(function() {
                     loop: true
                 })
                 .type("FOR SOCIAL GOOD.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR CHARITIES.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR NONPROFITS.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR POSITIVE CHANGE.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR WEBSITES WITHOUT A PRESENCE.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR MAKING A DIFFERENCE.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR BETTERING OUR COMMUNITY.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR BETTERING OUR SOCIETY.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
                 .type("FOR CHANGING OUR WORLD.", {delay:1500})
-                .delete(null, {speed: 350, delay: 1000})
+                .delete(null, {speed: 320, delay: 1000})
     
                 setTimeout(function() {
                     a.go();
@@ -87,10 +83,14 @@ $(function() {
         
                 $("#tagline1").delay(5000).fadeIn(1000);
                 $("#topCarousel").delay(7000).fadeIn(1000);
-                $("#buttons").delay(8500).fadeIn(500);
+                $("#buttons").delay(9500).fadeIn(500);
             }
     
             });
+
+            particlesJS.load('particles', '/assets/js/particles.json', function() {
+                console.log('callback - particles.js config loaded');
+              });
     }
 
 
