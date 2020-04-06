@@ -29,7 +29,6 @@ a, a:visited, a:hover {
 }
 
 .navbar {
-    margin-bottom: 0;
     border: 0;
     letter-spacing: 4px;
     height: 80px;
@@ -65,7 +64,8 @@ h3, h4 {
         
 #firstJumbotron {
      background: url("/assets/backgrounds/cambodia.png") no-repeat center top;
-     height: 850px;
+     background-attachment: fixed;
+     min-height: 100vh;
      background-size: cover;
      overflow: hidden;
      position:relative;
@@ -76,8 +76,6 @@ h3, h4 {
 #tagline1, #topCarousel {
     display: none;
 }
-
-
 
 #firstJumbotron h1 {
     font-family: 'Abril Fatface';
@@ -97,27 +95,43 @@ h3, h4 {
 }
         
 #secondJumbotron {
-    background: url("/assets/backgrounds/background1.jpg") no-repeat center top;
+    /*background: url("/assets/backgrounds/background1.jpg") no-repeat center top;
     background-attachment: fixed;
-    height: 700px;
-    background-size: cover;
+    background-size: cover;*/
+    height: 50vh;
     overflow: hidden;
     position:relative;
     top:0;
     left:0;
+    background: #1e1e1e;
 }
 
 #secondJumbotronCenterDiv {
-    background-color: rgba(222, 229, 239, 0.8);
-    color: #1e3b66;
-    width: 80%;
-    height: 50%;
+    color: white;
+    width: 100%;
     margin: auto;
-    margin-top: 10%;
-    float: none;
+    padding: 1%;
+}
+
+#secondJumbotronCenterDiv a {
+    font-size: 1.2em;
+    margin-top: 3%;
+    height: 9vh;
+    width: 23%;
+    background-color: #00aeef;
+    border: #00aeef;
+}
+
+#secondJumbotronCenterDiv a:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 73%);
+    border: rgb(2,0,36);
+}
+
+#secondJumbotronCenterDiv h3 {
     text-align: center;
-    padding: 50px;
-    border-radius: 10px;
+    font-size: 2.5em; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #secondJumbotronCenterDiv .display-4 {
@@ -245,10 +259,6 @@ h3, h4 {
     -webkit-filter: brightness(70%);
 }
 
-#resources {
-    
-}
-
 #resources p {
     font-size: 1.8em;
 }
@@ -272,7 +282,7 @@ h3, h4 {
 }
 
 #bottomFooter {
-    background-color: #214c70;
+    background-color: #1e1e1e;;
 }
 
 #getintouch {
@@ -285,13 +295,14 @@ h3, h4 {
 
 #copyright {
     font-size: 16px;
-    color: black;
+    color: white;
     text-align: center
 }
 
 #emailusbtn {
-    color:orange;
-    background-color: white;
+    color:white;
+    background-color: #00aeef;
+    border: #00aeef;
     font-size: 20px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder
