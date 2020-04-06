@@ -53,6 +53,15 @@ h1 {
 h3, h4 {
     font-family: 'Droid Sans';
 }
+
+/* Top Carousel */
+
+#topCarousel {
+    color: white;
+    font-family: 'Droid Sans';
+}
+
+/* First Jumbotron */
         
 #firstJumbotron {
      background: url("/assets/backgrounds/cambodia.png") no-repeat center top;
@@ -64,7 +73,7 @@ h3, h4 {
      left:0;
 }
 
-#tagline1, #tagline2 {
+#tagline1, #topCarousel {
     display: none;
 }
 

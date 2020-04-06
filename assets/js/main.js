@@ -18,8 +18,8 @@ $(function() {
             scrollFunction();
 
             /*! Fades in page on load */
-            $('body').css('display', 'none');
-            $('body').delay(500).fadeIn(1500);
+            //$('body').css('display', 'none');
+            //$('body').delay(500).fadeIn(1500);
 
             if(window.location.href.indexOf("whoweare") > -1) {
                 var a = new TypeIt('#cfi', {
@@ -32,7 +32,7 @@ $(function() {
                 }, 1500);
         
                 $("#tagline1").delay(5000).fadeIn(1000);
-                $("#tagline2").delay(7000).fadeIn(1000);
+                $("#topCarousel").delay(7000).fadeIn(1000);
                 $("#buttons").delay(8500).fadeIn(500);
             } else {
                 var a = new TypeIt('#cfi', {
@@ -45,7 +45,7 @@ $(function() {
                 }, 1500);
         
                 $("#tagline1").delay(5000).fadeIn(1000);
-                $("#tagline2").delay(7000).fadeIn(1000);
+                $("#topCarousel").delay(7000).fadeIn(1000);
                 $("#buttons").delay(8500).fadeIn(500);
             }
     
