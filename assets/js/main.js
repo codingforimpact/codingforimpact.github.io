@@ -3,19 +3,26 @@ $(function() {
     function scrollFunction() {
         $(window).scroll(function() {    // this will work when your window scrolled.
             var height = $(window).scrollTop();  //getting the scrolling height of window
-            if(height  > 200) {
-                $("#main_nav").css({"background-color": "white", "position": "fixed"});
+            if(height  > 100) {
+                /*
+                $("#main_nav").css({"background-color": "white"});
                 $("#navbar-links").find("a").addClass("black");
-            } else{
+                $("#main_nav").addClass("box-shadow");
+                */
+               $("#main_nav").addClass("sticky");
+            } else {
+                /*
                 $("#main_nav").css({"background-color": "transparent"});
                 $("#navbar-links").find("a").removeClass("black");
+                $("#main_nav").removeClass("box-shadow");
+                */
+                $("#main_nav").removeClass("sticky");
             }
         });
     }
 
     function main() {
         $(document).ready(function(){
-            scrollFunction();
 
             /*! Fades in page on load */
             //$('body').css('display', 'none');
@@ -94,6 +101,6 @@ $(function() {
     }
 
 
-
+    scrollFunction();
     main();
 });

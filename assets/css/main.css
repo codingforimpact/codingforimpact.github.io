@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Source Sans Pro','Roboto', sans-serif;
+    font-family: 'IBM Plex Serif', 'Source Sans Pro','Roboto', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -28,14 +28,32 @@ a, a:visited, a:hover {
      left:0;
 }
 
-.navbar {
+#main_nav {
+    height: 10vh;
+    transition: all 0.4s ease;
     border: 0;
     letter-spacing: 4px;
-    height: 80px;
     background-color: transparent;
+    font-family: 'Source Sans Pro';
 }
-  
-.navbar-brand img {
+
+#main_nav.sticky {
+    height: 8vh;
+    background-color: white;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main_nav.sticky img {
+    height: 50px;
+    width: 100px;
+}
+
+#main_nav.sticky a {
+    color: black !important;
+}
+
+#main_nav img {
     height: 65px;
     width: 125px;
     margin: 10px;
@@ -98,12 +116,14 @@ h3, h4 {
     /*background: url("/assets/backgrounds/background1.jpg") no-repeat center top;
     background-attachment: fixed;
     background-size: cover;*/
-    height: 50vh;
     overflow: hidden;
     position:relative;
     top:0;
     left:0;
-    background: #1e1e1e;
+    /*background: #1e1e1e;
+    background: rgb(251,251,251);
+    background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(86,168,255,1) 41%, rgba(69,243,252,1) 100%);*/
+    background: white;
 }
 
 #particles {
@@ -117,23 +137,24 @@ h3, h4 {
 
 #secondJumbotronCenterDiv {
     position: relative;
-    z-index: 1000;
-    color: white;
-    width: 100%;
+    color: black;
+    width: 70%;
     margin: auto;
-    padding: 1%;
+    height: 45vh;
 }
 
 #secondJumbotronCenterDiv a {
+    transition: all 0.3s ease;
     font-size: 1.2em;
     margin-top: 3%;
     height: 9vh;
-    width: 23%;
-    background-color: #00aeef;
+    width: 40%;
+    background: #00aeef;
     border: #00aeef;
 }
 
 #secondJumbotronCenterDiv a:hover {
+    transition: all 0.3s ease;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 73%);
     border: rgb(2,0,36);
@@ -141,8 +162,14 @@ h3, h4 {
 
 #secondJumbotronCenterDiv h3 {
     text-align: center;
-    font-size: 2.5em; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em; 
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+#secondJumbotronCenterDiv h1, #sectondJumbotronCenterDiv h3 {
+    font-family: 'IBM Plex Serif';
+    font-size: 1.5em;
 }
 
 #secondJumbotronCenterDiv .display-4 {
@@ -154,44 +181,42 @@ h3, h4 {
 
 #thirdJumbotron {
     /*background-color: #00ffce;*/
-    background-color: #9be9de;
-    position: relative;
+    background: url("/assets/backgrounds/rei_photo.png") no-repeat center top;
+    height: 60vh;
+    background-size: cover;
     overflow: hidden;
-    top: 0;
-    left: 0;
-    height: 100%;
+    position:relative;
+    top:0;
+    left:0;
 }
 
-#thirdJumbotron img {
-    height: 250px;
-    width: 250px;
-}
 
 #thirdJumbotron h1 {
-    color: #2f72a8;
-    font-size: 5.5em;
-}
-
-#thirdJumbotron .lead {
-    line-height: 1.5em;
-    font-size: 1.5em;
-    font-family: 'Fjalla One';
-    
-}
-
-#thirdJumbotron img {
-    width: 450px;
-    height: 425px;
+    color: white;
+    font-size: 3em;
 }
 
 #thirdJumbotron h3 {
     color: white;
 }
+
+#thirdJumbotron a {
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    transition: all 0.6s ease;
+}
+
+#thirdJumbotron a:hover {
+    background: white;
+    opacity: 0.5;
+    color: black;
+}
         
 #buttons .btn {
     font-family: 'Droid Sans';
     font-size: 1.3em;
-    border-radius: 50px;
     background-color: white;
     border: 2px solid white;
     color: #2f55a8;
