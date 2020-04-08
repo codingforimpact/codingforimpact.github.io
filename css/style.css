@@ -1291,7 +1291,7 @@ h3 {
 }
 
 .about_area .about_thumb .served_over {
-	background: #A70000;
+	background: rgba(2, 70, 109, 0.76);
 	position: absolute;
 	top: 50%;
 	display: inline-block;
@@ -1316,6 +1316,15 @@ h3 {
 #seeProjects:hover {
 	background: white;
 	color: rgb(1, 54, 104);
+}
+
+#seeWork {
+	background: rgba(2, 70, 109, 0.76);
+}
+
+#seeWork:hover {
+	background: white;
+	color: rgba(2, 70, 109, 0.76);;
 }
 
 .about_area .about_thumb .served_over span {
