@@ -43,6 +43,14 @@ body {
     opacity: 0;
 }
 
+#ourWorkBreadcam {
+	background:  url(../img/about/nyc3.jpg);
+	padding: 270px 0 300px 0;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
 .img {
 	max-width: 100%;
 	-webkit-transition: .3s;
@@ -797,7 +805,7 @@ h3 {
 	-webkit-transition: transform 500ms ease, background 500ms ease;
 	box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
 	padding: 0 150px;
-	background: #053f5a8a;
+	background: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -850,7 +858,11 @@ h3 {
 }
 
 .header-area .main-header-area.sticky a{
-	color: white!important;
+	color: rgb(2, 65, 124) !important;
+}
+
+.header-area .main-header-area.sticky a:hover {
+	color: rgb(0, 0, 0) !important;
 }
 
 /* Logo Modifications */
@@ -1217,7 +1229,7 @@ h3 {
 
 .about_area {
 	padding: 120px 0;
-	background: rgb(235, 244, 250)
+	background: rgb(242, 246, 248)
 }
 
 @media (max-width: 767px) {
@@ -1616,6 +1628,11 @@ h3 {
 	padding-bottom: 120px
 }
 
+.volunteers_area .single_volunteer .thumb {
+	height: 40vh;
+	display: flex;
+}
+
 @media (max-width: 767px) {
 	.volunteers_area {
 		padding: 80px 0
@@ -1644,7 +1661,9 @@ h3 {
 	overflow: hidden;
 	margin-bottom: 19px;
 	position: relative;
-	z-index: 9
+	z-index: 9;
+	border: 1px solid black;
+	border-radius: 3px;
 }
 
 .volunteers_area .single_volunteer .thumb img {
@@ -1718,13 +1737,14 @@ h3 {
 }
 
 .volunter_bg_1 {
-	background-image: url(../img/volunteers/bg.png)
+	background-image: url(../img/about/nyc4.jpg)
 }
 
 .become_volunter {
 	padding: 185px 0;
 	background-size: cover;
-	background-position: left top
+	background-position: left top;
+	border-radius: 3px;
 }
 
 @media (max-width: 767px) {
@@ -1734,8 +1754,9 @@ h3 {
 }
 
 .become_volunter .volunter_text {
-	background: #A70000;
-	padding: 68px 95px
+	background: rgba(4, 64, 112, 0.37);
+	padding: 68px 95px;
+	border: 1px solid white;
 }
 
 @media (max-width: 767px) {
@@ -1790,7 +1811,7 @@ h3 {
 
 .become_volunter .volunter_text a.boxed-btn4:hover {
 	background: #fff;
-	color: #A70000 !important
+	color: rgb(2, 81, 134) !important
 }
 
 .about_page {
@@ -1836,12 +1857,22 @@ h3 {
 }
 
 .about_page .about_info h3 {
-	font-size: 46px;
+	font-size: 24px;
+	line-height: 45px;
+	/*color: #450000;*/
+	color: rgb(9, 38, 75);
+	margin-top: 35px;
+	margin-bottom: 25px;
+	font-weight: 300;
+}
+
+.about_page .about_info h1 {
+	font-size: 36px;
 	line-height: 56px;
 	/*color: #450000;*/
 	color: rgb(9, 38, 75);
 	margin-top: 75px;
-	margin-bottom: 25px
+	font-weight: 400;
 }
 
 @media (max-width: 767px) {
