@@ -147,7 +147,7 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="causes_thumb">
                         <a href="https://www.nycconnector.org" target="_blank">
-                            <img class="img-fluid hideme" id="projectFocusImg" src="img/project/nycconnector.png" alt="">
+                            <img class="img-fluid hideme" id="projectFocusImg" src="img/project/nycconnector_laptop.png" alt="">
                         </a>
                         <!--<div class="custom_progress_bar">
                             <div class="progress">
@@ -261,7 +261,7 @@
     
     
     <!-- footer_start -->
-    <footer class="footer">
+    <footer class="footer" id="vantaFooter">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
@@ -394,6 +394,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Codin
           "image": "https://www.codingforimpact.org/logo.png",
           "description": "Founded in the Summer of 2018, Coding for Impact is an organization of high school students based in NYC, dedicated to driving a positive impact in our society through the implementation of software-based services for non-profit organizations, charities, and education platforms. We strive to use our skills in technology to help other non-profits and organizations which further good causes, as well as build apps of our own which help the community."
         }
+    </script>
+    
+    <script src="js/vanta/three.r95.min.js"></script>
+
+    <script src="js/vanta/vanta.rings.min.js"></script>
+    <script>
+    VANTA.RINGS({
+    el: "#vantaFooter",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0xa2743,
+    color: 0xf5f5f5,
+    backgroundAlpha: 0.97
+    })
     </script>
 
 </body>
