@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'IBM Plex Serif', 'Source Sans Pro','Roboto', sans-serif;
+    font-family: Century, Gotham-Book;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -7,6 +7,7 @@ html, body {
 a, a:visited, a:hover {
     text-decoration: none;
 }
+
 
 .link {
     color: white !important;
@@ -39,8 +40,7 @@ a, a:visited, a:hover {
 
 #main_nav.sticky {
     height: 8vh;
-    background-color: green;
-    color: white;
+    background-color: white;
     transition: all 0.4s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -51,7 +51,7 @@ a, a:visited, a:hover {
 }
 
 #main_nav.sticky a {
-    color: white !important;
+    color: black !important;
 }
 
 #main_nav img {
@@ -62,21 +62,6 @@ a, a:visited, a:hover {
 
 .navbar .link {
     margin-right: 3px;
-}
-
-h1 {
-    font-family: 'Fjalla One';
-}
-        
-h3, h4 {
-    font-family: 'Droid Sans';
-}
-
-/* Top Carousel */
-
-#topCarousel {
-    color: white;
-    font-family: 'Droid Sans';
 }
 
 /* First Jumbotron */
@@ -97,7 +82,7 @@ h3, h4 {
 }
 
 #firstJumbotron h1 {
-    font-family: 'Abril Fatface';
+    font-family: ;
     font-size: 5.5em;
     margin-top: 8%;
     color: white;
@@ -169,13 +154,13 @@ h3, h4 {
 }
 
 #secondJumbotronCenterDiv h1, #sectondJumbotronCenterDiv h3 {
-    font-family: 'IBM Plex Serif';
+    font-family: ;
     font-size: 1.5em;
 }
 
 #secondJumbotronCenterDiv .display-4 {
     line-height:1.2em;
-    font-family: 'Droid Sans';
+    font-family: ;
     font-weight: 400;
     font-size: 2.5em;
 }
@@ -216,7 +201,7 @@ h3, h4 {
 }
         
 #buttons .btn {
-    font-family: 'Droid Sans';
+    font-family: ;
     font-size: 1.3em;
     background-color: white;
     border: 2px solid white;
@@ -236,7 +221,7 @@ h3, h4 {
 
 #fourthJumbotron h3 {
     color: #234c8e;
-    font-family: 'Fjalla One';
+    font-family: ;
     font-size: 2.2em;
 }
 

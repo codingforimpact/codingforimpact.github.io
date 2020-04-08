@@ -25,8 +25,8 @@ $(function() {
         $(document).ready(function(){
 
             /*! Fades in page on load */
-            //$('body').css('display', 'none');
-            //$('body').delay(500).fadeIn(1500);
+            $('body').css('display', 'none');
+            $('body').delay(500).fadeIn(1500);
 
             if(window.location.href.indexOf("whoweare") > -1) {
                 var a = new TypeIt('#cfi', {
@@ -38,11 +38,11 @@ $(function() {
                     speed: 120,
                     loop: true
                 })
-                .type("FOR SOCIAL GOOD.")
+                .type("SOCIAL GOOD.")
                 .delete()
-                .type("FOR CHARITIES.")
+                .type("CHARITIES.")
                 .delete()
-                .type("FOR NONPROFITS")
+                .type("NONPROFITS")
     
                 setTimeout(function() {
                     a.go();
@@ -61,28 +61,32 @@ $(function() {
                     speed: 100,
                     loop: true
                 })
-                .type("FOR SOCIAL GOOD.", {delay:1500})
+                .type("SOCIAL GOOD.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR CHARITIES.", {delay:1500})
+                .type("CHARITIES.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR NONPROFITS.", {delay:1500})
+                .type("NONPROFITS.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR POSITIVE CHANGE.", {delay:1500})
+                .type("POSITIVE CHANGE.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR WEBSITES WITHOUT A PRESENCE.", {delay:1500})
+                .type("WEBSITES WITHOUT A PRESENCE.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR MAKING A DIFFERENCE.", {delay:1500})
+                .type("MAKING A DIFFERENCE.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR BETTERING OUR COMMUNITY.", {delay:1500})
+                .type("BETTERING OUR COMMUNITY.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR BETTERING OUR SOCIETY.", {delay:1500})
+                .type("BETTERING OUR SOCIETY.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
-                .type("FOR CHANGING OUR WORLD.", {delay:1500})
+                .type("CHANGING OUR WORLD.", {delay:1500})
                 .delete(null, {speed: 320, delay: 1000})
     
                 setTimeout(function() {
                     a.go();
                 }, 1500);
+
+                setTimeout(function() {
+                    $("#for").fadeIn()
+                }, 6250);
 
                 setTimeout(function() {
                     b.go();
