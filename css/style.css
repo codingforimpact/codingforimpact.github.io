@@ -1305,6 +1305,19 @@ h3 {
 	border-radius: 5px;
 }
 
+#aboutServed {
+	background: rgba(0, 114, 167, 0.521);
+}
+
+#seeProjects {
+	background: rgba(1, 54, 104, 0.705);
+}
+
+#seeProjects:hover {
+	background: white;
+	color: rgb(1, 54, 104);
+}
+
 .about_area .about_thumb .served_over span {
 	font-size: 16px;
 	font-weight: 400;
@@ -1953,7 +1966,7 @@ h3 {
 
 .footer .footer_top {
 	padding-top: 145px;
-	padding-bottom: 129px
+	padding-bottom: 180px
 }
 
 @media (max-width: 767px) {

@@ -139,8 +139,8 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
                     <div class="about_thumb">
-                        <img src="img/about/about.png" alt="">
-                        <div class="served_over">
+                        <img src="img/about/nyc2.jpg" style="height: 60vh;" alt="">
+                        <div class="served_over" id="aboutServed">
                             <span>Connected + Impacted</span>
                             <h3>1000</h3>
                             <p>nonprofits and charities.</p>
@@ -155,8 +155,10 @@
                                 We've worked with organizations across the world.
                             </h3>
                         </div>
-                        <p></p>
-                        <a href="our-work" class="boxed_btn3">See Projects</a>
+                        <p>From complete redesigns to minor updates, we've assisted organizations around the world in promoting
+                            their mission, vision, and purpose to the world.
+                        </p>
+                        <a href="our-work" id="seeProjects" class="boxed_btn3">See Projects</a>
                     </div>
                 </div>
             </div>
@@ -212,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         <br />
 
         <div class="row justify-content-md-center">
@@ -250,8 +252,26 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col col-lg-3">
+                <div class="single_volunteer">
+                    <div class="thumb">
+                        <img src="img/bio/vivian.jpg" alt="">
+                        <div class="social_links">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="author_name text-center">
+                        <h3>Vivian Liu</h3>
+                        <span>Vice President | Web Designerr</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <br />
+    </div>
     </div>
 
 
@@ -358,37 +378,49 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Codin
             </div>
         </div>
     </footer>
-    <!-- footer_start -->
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typeit@7.X.X/dist/typeit.min.js"></script>
-
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-    <script src="js/main.js"></script>
-
+    <!-- footer_end -->
 </body>
+<!-- JS here -->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/ajax-form.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/scrollIt.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/nice-select.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.X.X/dist/typeit.min.js"></script>
+<script src="js/particles.js/particles2.min.js"></script>
 
+<!--contact js-->
+<script src="js/contact.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/additional.js"></script>
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NGO",
+      "name": "Coding for Impact",
+      "url": "https://www.codingforimpact.org",
+      "logo": "https://www.codingforimpact.org/logo.png",
+      "foundingDate": "2018",
+      "image": "https://www.codingforimpact.org/logo.png",
+      "description": "Founded in the Summer of 2018, Coding for Impact is an organization of high school students based in NYC, dedicated to driving a positive impact in our society through the implementation of software-based services for non-profit organizations, charities, and education platforms. We strive to use our skills in technology to help other non-profits and organizations which further good causes, as well as build apps of our own which help the community."
+    }
+</script>
 </html>
