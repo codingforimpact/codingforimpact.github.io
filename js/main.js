@@ -261,45 +261,64 @@ dots:false,
   }
 });
 
-  // Typing animation
-  var a = new TypeIt('#cfi', {
-    speed: 130
-  })
-  .type("CODING FOR IMPACT");
+  if ($("#cfi").attr("typed-section") === "ourWork") {
+      // Typing animation
+    var a = new TypeIt('#cfi', {
+      speed: 130
+    })
+    .type("OUR WORK");
 
-  var b = new TypeIt('#tagline2', {
-      speed: 80,
-      loop: true
-  })
-  .type("FOR SOCIAL GOOD.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR CHARITIES.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR NONPROFITS.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR POSITIVE CHANGE.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR WEBSITES WITHOUT A PRESENCE.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR MAKING A DIFFERENCE.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR BETTERING OUR COMMUNITY.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR BETTERING OUR SOCIETY.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-  .type("FOR CHANGING OUR WORLD.", {delay:1500})
-  .delete(null, {speed: 320, delay: 1000})
-
-  setTimeout(function() {
+    setTimeout(function() {
       a.go();
   }, 1000);
+  } else {
+      // Typing animation
+    var a = new TypeIt('#cfi', {
+      speed: 130
+    })
+    .type("CODING FOR IMPACT");
 
-  setTimeout(function() {
-      b.go();
-  }, 6000);
+    setTimeout(function() {
+      a.go();
+  }, 1000);
+  }
 
-  $("#tagline1").delay(4500).fadeIn(1000);
-  $("#learn").delay(9000).fadeIn(1000);
+  if ($("#tagline2").length) {
+    var b = new TypeIt('#tagline2', {
+      speed: 80,
+      loop: true
+    })
+    .type("FOR SOCIAL GOOD.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR CHARITIES.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR NONPROFITS.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR POSITIVE CHANGE.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR WEBSITES WITHOUT A PRESENCE.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR MAKING A DIFFERENCE.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR BETTERING OUR COMMUNITY.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR BETTERING OUR SOCIETY.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000})
+    .type("FOR CHANGING OUR WORLD.", {delay:1500})
+    .delete(null, {speed: 320, delay: 1000});
+
+    setTimeout(function() {
+        b.go();
+    }, 6000);
+  }
+
+  if  ($("#tagline1").attr("typed-section") === "ourWork" && $("#learn").attr("typed-section") == "ourWork") {
+    $("#tagline1").delay(3500).fadeIn(1000);
+    $("#learn").delay(5000).fadeIn(1000);
+  } else {
+    $("#tagline1").delay(4500).fadeIn(1000);
+    $("#learn").delay(9000).fadeIn(1000);
+  }
 
   // Particles
   particlesJS.load('particles', 'js/particles.json', function() {

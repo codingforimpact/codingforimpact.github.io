@@ -12,12 +12,26 @@
 	justify-content: start
 }
 
+#projectFocusImg {
+	height: 60vh;
+	width: 80vw;
+	border: none;
+}
+
+#projectFocusArea {
+	padding-top: 10%;
+}
+
 .single_slider h4 {
 	text-transform: capitalize;
 	color: white;
 	font-size: 2em;
 	display: none;
 	font-weight: 300;
+}
+
+#ourWorkSlider {
+	background: url(../img/banner/1.png);
 }
 
 #learn {
@@ -37,6 +51,16 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	overflow-x: hidden;
+}
+
+.about_area .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 30vw;
+	margin-right: 0;
+	border: none;
+	background-color: white;
+	text-align: left;
+	font-family: "Open Sans";
 }
 
 .hideme {
@@ -1132,8 +1156,7 @@ h3 {
 }
 
 .causes_area .causes_thumb img {
-	width: 100%;
-	border-radius: 10px;
+	
 	border: 1px solid black;
 }
 
