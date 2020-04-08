@@ -632,11 +632,11 @@ h3 {
 	right: 0;
 	top: 0;
 	background: transparent;
-	z-index: 999
+	z-index: 999;
 }
 
 .header-area .main-header-area {
-	padding: 0 150px
+	padding: 0 150px;
 }
 
 @media (max-width: 767px) {
@@ -682,7 +682,7 @@ h3 {
 
 .header-area .main-header-area .main-menu ul li {
 	display: inline-block;
-	position: relative
+	position: relative;
 }
 
 .header-area .main-header-area .main-menu ul li a {
@@ -690,10 +690,9 @@ h3 {
 	font-size: 16px;
 	text-transform: capitalize;
 	font-weight: 400;
-	display: inline-block;
 	padding: 35px 23px 35px 23px;
 	font-family: "Montserrat", "Roboto", sans-serif;
-	position: relative
+	position: relative;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -798,7 +797,7 @@ h3 {
 	-webkit-transition: transform 500ms ease, background 500ms ease;
 	box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
 	padding: 0 150px;
-	background: #2d8b07;
+	background: #053f5a8a;
 }
 
 @media (max-width: 767px) {
@@ -850,14 +849,21 @@ h3 {
 	color: #450000 !important
 }
 
-.header-area.main-header-area.sticky a{
-	color: black !important;
+.header-area .main-header-area.sticky a{
+	color: white!important;
 }
 
 /* Logo Modifications */
 .header-area img {
     width: 150px;
-    height: 65px;
+	height: 65px;
+	margin-top: 10px;
+}
+
+.header-area .main-header-area.sticky img{
+	width: 100px;
+	height: 50px;
+	margin: 5px 0 5px 0;
 }
 
 .slider_bg_1 {
