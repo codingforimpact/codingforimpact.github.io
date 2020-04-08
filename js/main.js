@@ -289,23 +289,23 @@ dots:false,
       loop: true
     })
     .type("FOR SOCIAL GOOD.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR CHARITIES.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR NONPROFITS.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR POSITIVE CHANGE.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR WEBSITES WITHOUT A PRESENCE.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR MAKING A DIFFERENCE.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR BETTERING OUR COMMUNITY.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR BETTERING OUR SOCIETY.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000})
+    .delete(null, {speed: 200, delay: 1000})
     .type("FOR CHANGING OUR WORLD.", {delay:1500})
-    .delete(null, {speed: 320, delay: 1000});
+    .delete(null, {speed: 200, delay: 1000});
 
     setTimeout(function() {
         b.go();
