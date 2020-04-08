@@ -35,7 +35,8 @@
 body {
 	font-family: "Montserrat", 'Roboto', sans-serif;
 	font-weight: normal;
-	font-style: normal
+	font-style: normal;
+	overflow-x: hidden;
 }
 
 .hideme {
