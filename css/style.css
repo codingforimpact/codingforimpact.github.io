@@ -310,8 +310,8 @@ h3 {
 .boxed-btn:hover {
 	/*background: #450000;
 	border: 1px solid #450000; */
-	background: #160e86;
-	border: 1px solid #160e86;
+	background: rgb(22, 61, 83);
+	border: 1px solid rgb(22, 61, 83);
 	color: #fff !important;
 }
 
