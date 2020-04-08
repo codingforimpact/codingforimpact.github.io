@@ -20,6 +20,18 @@
 	font-weight: 300;
 }
 
+#learn {
+	display: none;
+	border: 1px solid rgb(22, 61, 83);
+	border-radius: 0px;
+	color: black;
+}
+
+#learn:hover {
+	background: rgb(22, 61, 83);
+	border: 1px solid rgb(22, 61, 83);
+}
+
 body {
 	font-family: "Montserrat", 'Roboto', sans-serif;
 	font-weight: normal;

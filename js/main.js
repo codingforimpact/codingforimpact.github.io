@@ -263,12 +263,12 @@ dots:false,
 
   // Typing animation
   var a = new TypeIt('#cfi', {
-    speed: 150
+    speed: 130
   })
   .type("CODING FOR IMPACT");
 
   var b = new TypeIt('#tagline2', {
-      speed: 100,
+      speed: 80,
       loop: true
   })
   .type("FOR SOCIAL GOOD.", {delay:1500})
@@ -296,9 +296,10 @@ dots:false,
 
   setTimeout(function() {
       b.go();
-  }, 7000);
+  }, 6000);
 
   $("#tagline1").delay(4500).fadeIn(1000);
+  $("#learn").delay(9000).fadeIn(1000);
 
   // Particles
   particlesJS.load('particles', 'js/particles.json', function() {
