@@ -88,8 +88,7 @@
     </div>
     <!-- breadcam_area_end -->
 
-    <div class="about_page">
-        <div id="particles"></div>
+    <div class="about_page" id="introSection">
         <div class="container">
             <!--
             <div class="row">
@@ -429,4 +428,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Codin
       "description": "Founded in the Summer of 2018, Coding for Impact is an organization of high school students based in NYC, dedicated to driving a positive impact in our society through the implementation of software-based services for non-profit organizations, charities, and education platforms. We strive to use our skills in technology to help other non-profits and organizations which further good causes, as well as build apps of our own which help the community."
     }
 </script>
+
+<script src="js/vanta/three.r95.min.js"></script>
+<script src="js/vanta/vanta.birds.min.js"></script>
+<script>
+    VANTA.BIRDS({
+    el: "#introSection",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0xffffff,
+    birdSize: 1.80,
+    wingSpan: 21.00,
+    speedLimit: 3.00,
+    quantity: 5.00
+    })
+</script>
+
 </html>
