@@ -284,6 +284,10 @@ dots:false,
   }
 
   if ($("#tagline2").length) {
+    particlesJS.load('particles', 'js/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    }); 
+    
     var b = new TypeIt('#tagline2', {
       speed: 80,
       loop: true
@@ -320,10 +324,7 @@ dots:false,
     $("#learn").delay(9000).fadeIn(1000);
   }
 
-  // Particles
-  particlesJS.load('particles', 'js/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-  }); 
+  
 
 });
 //------- Mailchimp js --------//  

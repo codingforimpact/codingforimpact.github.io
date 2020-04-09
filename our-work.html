@@ -168,7 +168,7 @@
     <!-- causes_area_end -->
 
     <!-- about_area_start -->
-    <div class="about_area" data-scroll-index="1">
+    <div class="about_area" data-scroll-index="1" id="projectsSection">
         <div class="container text-center">
             <h1>Projects</h1> <br /><br />
             <div class="row">
@@ -395,11 +395,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Codin
           "description": "Founded in the Summer of 2018, Coding for Impact is an organization of high school students based in NYC, dedicated to driving a positive impact in our society through the implementation of software-based services for non-profit organizations, charities, and education platforms. We strive to use our skills in technology to help other non-profits and organizations which further good causes, as well as build apps of our own which help the community."
         }
     </script>
-    
+
     <script src="js/vanta/three.r95.min.js"></script>
 
     <script src="js/vanta/vanta.rings.min.js"></script>
+    <script src="js/vanta/vanta.fog.min.js"></script>
     <script>
+    VANTA.FOG({
+    el: "#projectsSection",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    highlightColor: 0xb9b7b2,
+    midtoneColor: 0xc8c8c8,
+    lowlightColor: 0xdcdcdc,
+    baseColor: 0xf0f0f0
+    });
+
     VANTA.RINGS({
     el: "#vantaFooter",
     mouseControls: true,
@@ -411,7 +424,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Codin
     backgroundColor: 0xa2743,
     color: 0xf5f5f5,
     backgroundAlpha: 0.97
-    })
+    });
     </script>
 
 </body>
