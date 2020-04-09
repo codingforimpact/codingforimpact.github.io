@@ -12,6 +12,10 @@
 	justify-content: start
 }
 
+#for_typer {
+	color: white;
+}
+
 #projectFocusImg {
 	height: 87vh;
 	border: none;
