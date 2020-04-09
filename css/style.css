@@ -12,6 +12,10 @@
 	justify-content: start
 }
 
+.volunteers_area .col {
+	margin-top: 1%;
+}
+
 #for_typer {
 	color: white;
 }
