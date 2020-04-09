@@ -64,6 +64,10 @@ html, body {
 	font-family: "Open Sans";
 }
 
+#projectsSection {
+	background: white;
+}
+
 .hideme {
     opacity: 0;
 }
