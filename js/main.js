@@ -262,7 +262,7 @@ dots:false,
 });
 
   if ($("#cfi").attr("typed-section") === "ourWork") {
-      // Typing animation
+     /* // Typing animation
     var a = new TypeIt('#cfi', {
       speed: 80
     })
@@ -270,7 +270,7 @@ dots:false,
 
     setTimeout(function() {
       a.go();
-  }, 1000);
+  }, 1000);*/
   } else {
     /*
       // Typing animation
