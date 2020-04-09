@@ -289,7 +289,26 @@ dots:false,
     particlesJS.load('particles', 'js/particles.json', function() {
       console.log('callback - particles.js config loaded');
     }); 
+    var options = {
+      strings: ['CODING FOR IMPACT'],
+      typeSpeed: 80,
+      onStringTyped: function() {
+        return $("#cfi").siblings('.typed-cursor').remove();
+      }
+    };
+
+    var options2 = {
+      strings: ["SOCIAL GOOD.", "CHARITIES.", "NONPROFITS.", "POSITIVE CHANGE.", 
+                "WEBSITES WITHOUT A PRESENCE.", "MAKING A DIFFERENCE.", "BETTERING OUR COMMUNITY.",
+                "BETTERING OUR SOCIETY.", "CHANGING OUR WORLD."],
+      typeSpeed: 80,
+      backSpeed: 70,
+      backDelay: 1000,
+      loop: true
+    }
     
+    var typed = new Typed('#cfi', options);
+    var typed2 = new Typed('#tagline2', options2);
     /*
     var b = new TypeIt('#tagline2', {
       speed: 70,
@@ -323,27 +342,6 @@ dots:false,
 
     $("#tagline2_encompass").delay(5000).fadeIn(1000);
   }
-
-  var options = {
-    strings: ['CODING FOR IMPACT'],
-    typeSpeed: 80,
-    onStringTyped: function() {
-      return $("#cfi").siblings('.typed-cursor').remove();
-    }
-  };
-
-  var options2 = {
-    strings: ["SOCIAL GOOD.", "CHARITIES.", "NONPROFITS.", "POSITIVE CHANGE.", 
-              "WEBSITES WITHOUT A PRESENCE.", "MAKING A DIFFERENCE.", "BETTERING OUR COMMUNITY.",
-              "BETTERING OUR SOCIETY.", "CHANGING OUR WORLD."],
-    typeSpeed: 80,
-    backSpeed: 70,
-    backDelay: 1000,
-    loop: true
-  }
-  
-  var typed = new Typed('#cfi', options);
-  var typed2 = new Typed('#tagline2', options2);
 
   if  ($("#tagline1").attr("typed-section") === "ourWork" && $("#learn").attr("typed-section") == "ourWork") {
     $("#tagline1").delay(3500).fadeIn(1000);
