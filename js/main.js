@@ -262,7 +262,7 @@ dots:false,
 });
 
   if ($("#cfi").attr("typed-section") === "ourWork") {
-      // Typing animation
+     /* // Typing animation
     var a = new TypeIt('#cfi', {
       speed: 80
     })
@@ -270,24 +270,26 @@ dots:false,
 
     setTimeout(function() {
       a.go();
-  }, 1000);
+  }, 1000);*/
   } else {
+    /*
       // Typing animation
     var a = new TypeIt('#cfi', {
-      speed: 90
+      speed: 50
     })
     .type("CODING FOR IMPACT");
 
     setTimeout(function() {
       a.go();
   }, 1000);
+  */
   }
 
-  if ($("#tagline2").length) {
+  if ($("#tagline2_encompass").length) {
     particlesJS.load('particles', 'js/particles.json', function() {
       console.log('callback - particles.js config loaded');
     }); 
-    
+    /*
     var b = new TypeIt('#tagline2', {
       speed: 70,
       loop: true
@@ -312,18 +314,21 @@ dots:false,
     .type("CHANGING OUR WORLD.", {delay:1500})
     .delete(null, {speed: 200, delay: 1000});
 
-    $("#tagline2_encompass").delay(6000).fadeIn(1000);
+    SOCIAL GOOD., CHARITIES., NONPROFITS., POSITIVE CHANGE., WEBSITES WITHOUT A PRESENCE., MAKING A DIFFERENCE., BETTERING OUR COMMUNITY., BETTERING OUR SOCIETY., CHANGING OUR WORLD. 
+
     setTimeout(function() {
         b.go();
-    }, 6000);
+    }, 6000);*/
+
+    $("#tagline2_encompass").delay(5000).fadeIn(1000);
   }
 
   if  ($("#tagline1").attr("typed-section") === "ourWork" && $("#learn").attr("typed-section") == "ourWork") {
     $("#tagline1").delay(3500).fadeIn(1000);
     $("#learn").delay(5000).fadeIn(1000);
   } else {
-    $("#tagline1").delay(4500).fadeIn(1000);
-    $("#learn").delay(9000).fadeIn(1000);
+    $("#tagline1").delay(3000).fadeIn(1000);
+    $("#learn").delay(7000).fadeIn(1000);
   }
 
   var is_opera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
