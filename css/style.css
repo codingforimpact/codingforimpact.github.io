@@ -916,7 +916,7 @@ h3 {
 	z-index: 8;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	
 }
 
 @media (max-width: 767px) {
