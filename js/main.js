@@ -270,7 +270,7 @@ dots:false,
 
     setTimeout(function() {
       a.go();
-  }, 1000);*/
+  }, 1000);
   } else {
     /*
       // Typing animation
@@ -289,26 +289,6 @@ dots:false,
     particlesJS.load('particles', 'js/particles.json', function() {
       console.log('callback - particles.js config loaded');
     }); 
-    var options = {
-      strings: ['CODING FOR IMPACT'],
-      typeSpeed: 80,
-      onStringTyped: function() {
-        return $("#cfi").siblings('.typed-cursor').remove();
-      }
-    };
-
-    var options2 = {
-      strings: ["SOCIAL GOOD.", "CHARITIES.", "NONPROFITS.", "POSITIVE CHANGE.", 
-                "WEBSITES WITHOUT A PRESENCE.", "MAKING A DIFFERENCE.", "BETTERING OUR COMMUNITY.",
-                "BETTERING OUR SOCIETY.", "CHANGING OUR WORLD."],
-      typeSpeed: 80,
-      backSpeed: 70,
-      backDelay: 1000,
-      loop: true
-    }
-    
-    var typed = new Typed('#cfi', options);
-    var typed2 = new Typed('#tagline2', options2);
     /*
     var b = new TypeIt('#tagline2', {
       speed: 70,
@@ -361,6 +341,8 @@ dots:false,
   if(!is_chrome) {
     $(".slider_area").css({"background-attachment": "scroll"});
   }
+  
+
 });
 //------- Mailchimp js --------//  
 function mailChimp() {
