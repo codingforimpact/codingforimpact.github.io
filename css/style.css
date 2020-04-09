@@ -112,8 +112,13 @@ a:hover,
 a,
 button {
 	color: #450000;
-	outline: medium none
+	outline: medium none;
+	cursor: pointer;
 }
+
+.modal-backdrop {
+	z-index: 1;
+  }
 
 h1,
 h2,
@@ -149,7 +154,7 @@ p {
 	line-height: 28px;
 	color: #4D4D4D;
 	margin-bottom: 13px;
-	font-family: 'Roboto', sans-serif
+	font-family: 'Montserrat', 'Roboto', sans-serif
 }
 
 label {
@@ -1762,14 +1767,14 @@ h3 {
 }
 
 .volunteers_area .single_volunteer .thumb .social_links::before {
-	background-image: linear-gradient(to top, #450000 20%, #450000 30%, #450000 70%);
+	/*background-image: linear-gradient(to top, #450000 20%, #450000 30%, #450000 70%);*/
+	background: rgba(3, 78, 148, 0.507);
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	content: "";
 	left: 0;
 	top: 0;
-	opacity: .5
 }
 
 .volunteers_area .single_volunteer .thumb .social_links ul li {
@@ -1785,7 +1790,7 @@ h3 {
 }
 
 .volunteers_area .single_volunteer .thumb .social_links ul li a:hover {
-	color: #A70000
+	color: rgb(0, 62, 104);
 }
 
 .volunteers_area .single_volunteer .author_name h3 {
@@ -2200,12 +2205,12 @@ h3 {
 .breadcam_area .breadcam_text h3 {
 	font-size: 60px;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 200;
 	text-transform: capitalize;
 	position: relative;
 	line-height: 70px;
 	z-index: 99;
-	font-family: "Playfair Display", serif
+	font-family: "Montserrat", "Assistant", "Playfair Display", serif
 }
 
 @media (max-width: 767px) {
