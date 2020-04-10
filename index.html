@@ -55,7 +55,7 @@
     <!-- header-start -->
     <header>
         <div class="header-area">
-            <div class="main-header-area">
+            <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
                     <div class="row align-items-center justify-content-between no-gutters">
                         <div class="col-xl-2 col-lg-2">
@@ -69,8 +69,8 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="our-work">Our Work</a></li>
-                                        <li><a href="about-us">About Us</a></li>
+                                        <li><a href="our-impact">OUR IMPACT</a></li>
+                                        <li><a href="about-us">ABOUT US</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -103,7 +103,7 @@
                               </span></h3>
                             <h4 id="tagline1" style="font-family: 'Assistant'; font-weight: 200;">BUILDING TANGIBLE APPLICATIONS FOR NONPROFITS AND CHARITIES.</h4>
                             <p style="font-size: 2em; font-family: 'Assistant'; font-weight: 200; display: none" id="tagline2_encompass">
-                                FOR 
+                                FOR
                                 <span class="typer" id="main" data-colors="#fffffff" data-words="SOCIAL GOOD., CHARITIES., NONPROFITS., POSITIVE CHANGE., WEBSITES WITHOUT A PRESENCE., MAKING A DIFFERENCE., BETTERING OUR COMMUNITY., BETTERING OUR SOCIETY., CHANGING OUR WORLD. " data-delay="120" data-deleteDelay="1000"></span>
                             </p> <br />
 
@@ -117,9 +117,69 @@
     </div>
     <!-- slider_area_end -->
 
+    <div data-scroll-index="0" class="servce_area">
+        <div class="container">
+            <div id="particles2"></div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-60">
+                        <span>Our Mission</span>
+                        <h3>
+                            We Strive to Drive Positive Change
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Collaboration</h3>
+                        <p>We work closely with each other as well as our clients to provide the best interfaces suited for each organization.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3>Develop</h3>
+                        <p>We work diligently to develop applications for nonprofits and charities, as well as independent projects of our own.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>We teach web development fundamentals to young students interested in using their skills in computer science and technology to drive a positive impact in their community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <style type="text/css">
-    
+    /*
     #currentCause::after {
+        content: "";
+        width: 100%;
+        height: 113px;
+        left: 0;
+        bottom: -50px;
+        -webkit-transform: skewY(3deg);
+        -ms-transform: skewY(3deg);
+        transform: skewY(3deg);
+        z-index: 99;
+        position: absolute;
+        background: white;
+        
+    }
+
+    #currentCause2::after {
         content: "";
         width: 100%;
         height: 113px;
@@ -130,9 +190,8 @@
         transform: skewY(-3deg);
         z-index: 99;
         position: absolute;
-        background: white;
-        
-    }
+        background: #013b69;;
+    }*/
 
     #currentCause2 {
         background: #1dacd6;
@@ -177,8 +236,65 @@
     }
     </style>
 
+<div class="causes_area" id="currentCause2">
+    <div class="container">
+        <div id="particles"></div>
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-md-6">
+                <div class="causes_thumb">
+                    <img class="img-fluid hideme" src="img/project/nycconnector_laptop.png" alt="">
+                    <!--<div class="custom_progress_bar">
+                        <div class="progress">
+                            <div class="progress-bar wow slideInLeft" role="progressbar" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                <div class="value_progress">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                -->
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-md-6">
+                <div class="causes_info">
+                    <div class="section_title hideme">
+                        <span>Project Focus</span>
+                        <h3>
+                            NYC Connector
+                        </h3>
+                    </div>
+                    <p>
+                        NYC Connector (<a href="https://nycconnector.org">nycconnector.org</a>) was built with a mission in mind: to provide seamless access
+                        to the thousands of charities and nonprofits for the thousands in NYC looking to give back to 
+                        their community. Our technology incorporates the most comprehensive database of organizations
+                        located in NYC, utilizing a simple interface to connect you with organizations. Our work was
+                        featured on NYC Open Data's Project Gallery: click <a href="https://opendata.cityofnewyork.us/projects/nyc-connector/">here</a> to 
+                        check it out.  
+                    </p>
+                    <a class="boxed-btn" href="/our-impact">Learn More</a>
+                    <!--div class="target_rais_area d-flex">
+                        <div class="single_raise">
+                            <span>target :</span>
+                            <h4>$2783</h4>
+                        </div>
+                        <div class="single_raise">
+                            <span>raised :</span>
+                            <h4>$1530</h4>
+                        </div>
+                        <div class="doante_btn">
+                            <a href="#" class="boxed_btn3">Donate Now</a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
     <!-- causes_area_start -->
-    <div style="padding-top: 10%;" class="causes_area" data-scroll-index="0" id="currentCause">
+    <div style="padding-top: 13%;" class="causes_area" data-scroll-index="0" id="currentCause">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
@@ -192,7 +308,7 @@
                             </h3>
                         </div>
                         <p style="color: black;">Resource Equality International (REI) is dedicated to universalizing access to water across the globe, especially in third-world countries such as Cambodia. Peter Williams, REI's founder, asked us to redesign his website to best reflect the vision and mission of his organization. </p>
-                        <a class="boxed-btn" href="/our-work">Learn More</a>
+                        <a class="boxed-btn" href="/our-impact">Learn More</a>
                         <!--div class="target_rais_area d-flex">
                             <div class="single_raise">
                                 <span>target :</span>
@@ -227,66 +343,9 @@
             </div>
         </div>
     </div>
-
-    <div class="causes_area" data-scroll-index="0" id="currentCause2">
-        <div class="container">
-            <div id="particles"></div>
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-md-6">
-                    <div class="causes_thumb">
-                        <img class="img-fluid hideme" src="img/project/nycconnector_laptop.png" alt="">
-                        <!--<div class="custom_progress_bar">
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" role="progressbar" aria-valuenow="60"
-                                    aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                                    <div class="value_progress">
-                                        <span>60%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    -->
-                    </div>
-                </div>
-
-                <div class="col-xl-6 col-md-6">
-                    <div class="causes_info">
-                        <div class="section_title hideme">
-                            <span>Project Focus</span>
-                            <h3>
-                                NYC Connector
-                            </h3>
-                        </div>
-                        <p>
-                            NYC Connector (<a href="https://nycconnector.org">nycconnector.org</a>) was built with a mission in mind: to provide seamless access
-                            to the thousands of charities and nonprofits for the thousands in NYC looking to give back to 
-                            their community. Our technology incorporates the most comprehensive database of organizations
-                            located in NYC, utilizing a simple interface to connect you with organizations. Our work was
-                            featured on NYC Open Data's Project Gallery: click <a href="https://opendata.cityofnewyork.us/projects/nyc-connector/">here</a> to 
-                            check it out.  
-                        </p>
-                        <a class="boxed-btn" href="/our-work">Learn More</a>
-                        <!--div class="target_rais_area d-flex">
-                            <div class="single_raise">
-                                <span>target :</span>
-                                <h4>$2783</h4>
-                            </div>
-                            <div class="single_raise">
-                                <span>raised :</span>
-                                <h4>$1530</h4>
-                            </div>
-                            <div class="doante_btn">
-                                <a href="#" class="boxed_btn3">Donate Now</a>
-                            </div>
-                        </div>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- causes_area_end -->
 
-    <!-- servce_area_start -->
+    <!-- 
     <div class="servce_area">
         <div class="container">
             <div id="particles2"></div>
@@ -331,9 +390,8 @@
             </div>
         </div>
     </div>
-    <!-- servce_area_end -->
+-->
 
-    <!-- about_area_start -->
     <div class="about_area" id="homeAboutSection">
         <div class="container">
             <div class="row align-items-center">
@@ -356,7 +414,7 @@
                             </h3>
                         </div>
                         <p>We've also developed independent projects of our own to address certain social and humanitarian issues in our community.</p>
-                        <a href="/our-work" class="boxed_btn3" id="seeWork">See Our Work</a> <br /><br />
+                        <a href="/our-impact" class="boxed_btn3" id="seeWork">Explore Our Impact</a> <br /><br />
                         <a href="/about-us" class="boxed_btn3" id="seeWork">About Us</a>
                     </div>
                 </div>
@@ -577,7 +635,7 @@
             <a href="/about-us">About Us</a>
           </p>
           <p>
-            <a href="/our-work">Our Work</a>
+            <a href="/our-impact">Our Work</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -596,8 +654,6 @@
             <i class="fas fa-envelope mr-3"></i> <a href="mailto:codingforimpact@gmail.com">codingforimpact@gmail.com</a></p>
           <p>
             <i class="fas fa-phone mr-3"></i> + 01 917 388 2847</p>
-          <p>
-            <i class="fas fa-print mr-3"></i> + 01 917 388 2847</p>
         </div>
         <!-- Grid column -->
   
@@ -636,11 +692,6 @@
               <li class="list-inline-item">
                 <a class="btn-floating btn-sm rgba-white-slight mx-1">
                   <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-google-plus-g"></i>
                 </a>
               </li>
               <li class="list-inline-item">
