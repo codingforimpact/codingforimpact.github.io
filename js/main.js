@@ -286,7 +286,11 @@ dots:false,
   }
 
   if ($("#tagline2_encompass").length) {
-    particlesJS.load('particles', 'js/particles.json', function() {
+    particlesJS.load('particles', 'js/circle_particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    }); 
+
+    particlesJS.load('particles2', 'js/particles.json', function() {
       console.log('callback - particles.js config loaded');
     }); 
     /*

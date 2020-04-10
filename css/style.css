@@ -1565,7 +1565,7 @@ h3 {
 	color: #fff
 }
 
-#particles {
+#particles, #particles2 {
     z-index: -1000;
     position: absolute;
     height: 100%;
@@ -1849,7 +1849,7 @@ h3 {
 }
 
 .volunter_bg_1 {
-	background-image: url(../img/about/nyc4.jpg)
+	background-image: url(../img/about/nyc4.jpg);
 }
 
 .become_volunter {
@@ -2023,6 +2023,7 @@ h3 {
 
 .footer {
 	background: #120447;
+	background: #013b69;
 }
 
 .footer .footer_top {
