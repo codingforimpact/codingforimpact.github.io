@@ -2217,6 +2217,10 @@ h3 {
 	background-image: url(../img/about/CFI.png)
 }
 
+.ourVisionBG {
+	background-image: url(../img/about/nyc.png);
+}
+
 .breadcam_area {
 	padding: 270px 0 300px 0;
 	background-size: cover;
