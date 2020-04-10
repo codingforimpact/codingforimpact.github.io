@@ -1559,14 +1559,15 @@ h3 {
 	border: 1px solid black;
 	font-size: 45px;
 	/*color: #A70000;*/
-	color: rgb(3, 71, 102);
+	color: rgb(0, 112, 187);
 	line-height: 98px;
 	border-radius: 50%;
 	margin: auto;
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-o-transition: .3s;
-	transition: .3s
+	transition: .3s;
+	cursor: none;
 }
 
 .servce_area .single_serve h3 {
@@ -1583,7 +1584,7 @@ h3 {
 
 .servce_area .single_serve:hover .serve_icon {
 	/*background: #A70000;*/
-	background: rgb(3, 71, 102);
+	background: rgb(0, 112, 187);
 	color: #fff
 }
 
