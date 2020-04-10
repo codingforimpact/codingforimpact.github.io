@@ -290,9 +290,11 @@ dots:false,
       console.log('callback - particles.js config loaded');
     }); 
 
+    /*
     particlesJS.load('particles2', 'js/particles.json', function() {
       console.log('callback - particles.js config loaded');
     }); 
+    */
     /*
     var b = new TypeIt('#tagline2', {
       speed: 70,
