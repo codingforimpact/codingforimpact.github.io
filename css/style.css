@@ -1364,7 +1364,8 @@ h3 {
 
 #seeWork:hover {
 	background: white;
-	color: rgba(2, 70, 109, 0.76);;
+	color: rgba(2, 70, 109, 0.76);
+	border: 1px solid white;
 }
 
 .about_area .about_thumb .served_over span {
