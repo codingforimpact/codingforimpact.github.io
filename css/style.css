@@ -21,7 +21,8 @@
 }
 
 #projectFocusImg {
-	height: 87vh;
+	height: 70vh;
+	width: 50vw;
 	border: none;
 }
 
@@ -1201,7 +1202,7 @@ h3 {
 }
 
 .causes_area .causes_thumb {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	padding-bottom: 30px
 }
 
