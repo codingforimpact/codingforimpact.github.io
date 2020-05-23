@@ -1,1 +1,1 @@
-Sitemap: http://www.codingforimpact.com/sitemap.xml
+Sitemap: https://www.codingforimpact.com/sitemap.xml
