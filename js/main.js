@@ -447,7 +447,17 @@
         var css = document.createElement("style");
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
+		document.body.appendChild(css);
+		
+		$.scrollIt({
+			upKey: 38,             // key code to navigate to the next section
+			downKey: 40,           // key code to navigate to the previous section
+			easing: 'linear',      // the easing function for animation
+			scrollTime: 400,       // how long (in ms) the animation takes
+			activeClass: 'active', // class given to the active nav element
+			onPageChange: null,    // function(pageIndex) that is called when page is changed
+			topOffset: -100           // offste (in px) for fixed top navigation
+		  });
     };
 	
 

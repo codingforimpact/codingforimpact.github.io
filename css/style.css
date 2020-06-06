@@ -7953,6 +7953,8 @@ h1, h2, h3, h4, h5,
   width: 100%;
   padding: 10% 7%;
   display: block;
+  border-top: 1px solid rgb(5, 64, 112);
+  border-bottom: 1px solid rgb(5, 64, 112);
  }
   @media (min-width: 768px) {
     .block-3 .text, .block-3 .image {
@@ -7976,7 +7978,7 @@ h1, h2, h3, h4, h5,
 
 .block-3 .image {
   background-color: #f8faff;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat; }
   @media (max-width: 767.98px) {
