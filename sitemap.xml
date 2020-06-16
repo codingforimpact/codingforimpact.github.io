@@ -9,23 +9,38 @@
 
 <url>
   <loc>https://www.codingforimpact.org/</loc>
-  <lastmod>2020-05-02T17:24:39+00:00</lastmod>
+  <lastmod>2020-06-16T04:28:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.codingforimpact.org/our-vision</loc>
-  <lastmod>2020-05-02T17:24:39+00:00</lastmod>
+  <loc>https://www.codingforimpact.org/our-work.html</loc>
+  <lastmod>2020-06-16T04:28:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.codingforimpact.org/our-impact</loc>
-  <lastmod>2020-05-02T17:24:39+00:00</lastmod>
+  <loc>https://www.codingforimpact.org/team.html</loc>
+  <lastmod>2020-06-16T04:28:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.codingforimpact.org/our-team</loc>
-  <lastmod>2020-05-02T17:24:39+00:00</lastmod>
+  <loc>https://www.codingforimpact.org/contact.html</loc>
+  <lastmod>2020-06-16T04:28:12+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.codingforimpact.org/donate.html</loc>
+  <lastmod>2020-06-16T04:28:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.codingforimpact.org/education.html</loc>
+  <lastmod>2020-06-16T04:28:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.codingforimpact.org/join-us.html</loc>
+  <lastmod>2020-06-16T04:28:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
