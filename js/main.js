@@ -166,7 +166,7 @@ AOS.init({
 
   $("#servedSection .row .col").mouseover(function(e) {
       e.preventDefault();
-
+      /*
       if (this.id === "lotSection") {
         $("#servedSection").stop().css({
           "background": "url('images/banner_images/lot2545.png')",
@@ -188,6 +188,21 @@ AOS.init({
           "background-size": "cover"
         });
       }
+      */
+
+      var currentBackground = $("#servedSection").find(".activeBackground");
+      currentBackground.stop().removeClass("activeBackground");
+
+      if (this.id === "lotSection") {
+        $("#lotBackground").stop().addClass("activeBackground");
+      } else if (this.id === "reiSection") {
+        $("#reiBackground").stop().addClass("activeBackground");
+      } else if (this.id === "ggmSection") {
+        $("#ggmBackground").stop().addClass("activeBackground");
+      } else if (this.id === "haitiSection") {
+        $("#haitiBackground").stop().addClass("activeBackground");
+      }
+      
   });
   
   $('.navbar .hover-background').mouseover(function(e) {
