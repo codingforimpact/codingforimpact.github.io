@@ -52,7 +52,7 @@
 
 .single-team:hover .team-photo img {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .single-team h4 {
