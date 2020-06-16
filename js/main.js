@@ -271,7 +271,7 @@ AOS.init({
 
     if (scrollTop <= 90) {
         $('.header-background').css({
-          'opacity': 0.5
+          'opacity': 0.7
         });
     }
   });
