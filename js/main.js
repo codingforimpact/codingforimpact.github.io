@@ -165,6 +165,8 @@ AOS.init({
   });
 
   $("#servedSection .row .col").on("mouseenter", function(e) {
+      e.preventDefault();
+      
       if (this.id === "lotSection") {
         $("#servedSection").stop().css({
           "background": "url('images/banner_images/lot2545.png')",
