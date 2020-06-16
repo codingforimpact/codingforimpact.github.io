@@ -164,7 +164,7 @@ AOS.init({
 
   });
 
-  $("#servedSection .row .col").on("mouseenter", function(e) {
+  $("#servedSection .row .col").mouseover(function(e) {
       e.preventDefault();
 
       if (this.id === "lotSection") {
@@ -190,7 +190,7 @@ AOS.init({
       }
   });
   
-  $('.navbar .hover-background').on('mouseenter', function(e) {
+  $('.navbar .hover-background').mouseover(function(e) {
     e.preventDefault();
     
     var scrollTop = $(window).scrollTop();
