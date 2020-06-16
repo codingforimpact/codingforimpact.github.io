@@ -116,10 +116,12 @@ input[type="text"] {
 }
 
 .fadeSection {
+  /*
   transition: background 0.4s ease;
   -webkit-transition: background 0.4s ease;
   -moz-transition: background 0.4s ease;
   -o-transition: background 0.4s ease;
+  */
 }
 
 .fadeSection h1 {
@@ -137,7 +139,7 @@ input[type="text"] {
   -webkit-transition: .3s opacity ease-in;
   -o-transition: .3s opacity ease-in;
   transition: .3s opacity ease-in;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .fadeSection .row .col:hover {
