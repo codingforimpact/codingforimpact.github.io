@@ -24,7 +24,7 @@ AOS.init({
           window.location.hash = target;
       });
       } else if (hash === "#projects") {
-        $("html, body").stop().animate({scrollTop: offsetTop - 140 }, 500, 'swing', function () {
+        $("html, body").stop().animate({scrollTop: offsetTop - 70 }, 500, 'swing', function () {
           window.location.hash = target;
       });
       } else if (hash === "#careers") {
