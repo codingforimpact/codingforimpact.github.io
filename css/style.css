@@ -116,9 +116,10 @@ input[type="text"] {
 }
 
 .fadeSection {
-  transition: background 0.4s ease-out;
-  -webkit-transition: background 0.4s ease-out;
-  -o-transition: background 0.4s ease-out;
+  transition: background 0.4s ease;
+  -webkit-transition: background 0.4s ease;
+  -moz-transition: background 0.4s ease;
+  -o-transition: background 0.4s ease;
 }
 
 .fadeSection h1 {
