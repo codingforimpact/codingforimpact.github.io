@@ -119,6 +119,7 @@ section#categories .category .category-icon i {
     -ms-transition: all .6s ease;
     -o-transition: all .6s ease;
     transition: all .6s ease;
+    color: white;
 }
 
 section#categories .category .category-info {
@@ -176,8 +177,11 @@ section#categories .category:hover .category-icon {
     transform: translateY(-60px);
 }
 
+
 section#categories .category:hover .category-icon i {
     font-size: 32px;
+    color: rgb(0, 162, 255);
+
 }
 
 section#categories .category:hover .category-icon i:before {
