@@ -546,6 +546,9 @@ body {
   line-height: 1.8;
   font-weight: 300;
   color: gray;
+  height:100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 p, ul, ol {
