@@ -535,10 +535,6 @@ hr {
   width: 220px;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   background: #fff;
   font-family: "Montserrat", "Muli", "Open Sans", Arial, sans-serif;
@@ -548,7 +544,6 @@ body {
   color: gray;
   height:100%;
   width: 100%;
-  overflow: hidden;
 }
 
 p, ul, ol {
