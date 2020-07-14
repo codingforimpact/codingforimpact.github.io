@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Muli:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-html {
-  overflow-x: hidden;
-}
-
 bg-blue {
   background-color: #429bb8;
 }
@@ -183,8 +179,8 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 850px) {
-  body {
-    
+  html, body {
+    overflow-x: hidden;
   }
 
   #ourPhilosophy .container .row .section-heading .heading {
@@ -617,6 +613,7 @@ body {
   color: gray;
   height:100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 p, ul, ol {
