@@ -35,7 +35,9 @@ AOS.init({
     }
   
       $(window).on("hashchange", function(e) {
-        e.preventDefault();
+        if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+          e.preventDefault();
+         }
 
         fixedHeaderOffset(window.location.hash);
       });
@@ -167,7 +169,9 @@ AOS.init({
   });
 
   $("#servedSection .row .col").mouseover(function(e) {
+    if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
       e.preventDefault();
+     }
       /*
       if (this.id === "lotSection") {
         $("#servedSection").stop().css({
@@ -321,7 +325,9 @@ AOS.init({
   $('.js-site-nav-toggle').on('click', function(e) {
 
     var $this = $(this);
-    e.preventDefault();
+    if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+      e.preventDefault();
+     }
 
  
 
