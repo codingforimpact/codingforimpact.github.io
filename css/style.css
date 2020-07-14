@@ -2082,7 +2082,6 @@ textarea.form-control {
 
 .cover_1 {
   position: relative;
-  overflow-x: hidden;
 }
 
 .cover_1.overlay:before {
@@ -2509,7 +2508,6 @@ textarea.form-control {
   padding: 7em 0;
   font-size: 15px;
   font-weight: 400;
-  overflow-x: hidden;
   margin-bottom: -70px;
 }
 
