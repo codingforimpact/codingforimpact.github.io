@@ -191,6 +191,13 @@ input[type="text"] {
   font-size: 28px; text-align: center; font-style: normal; line-height: 2.5;
 }
 
+.teamHeading p {
+  line-height: 25px; text-align: justify; font-family: Playfair Display, serif; font-weight: 200; margin-left:27%; margin-right: 27%;
+}
+
+.single-value h1 {
+  font-size: 26px; text-align: center; ; line-height: 2.5;
+}
 
 @media screen and (max-width: 850px) {
   html, body {
@@ -264,6 +271,16 @@ input[type="text"] {
 
   .price {
     display: none;
+  }
+
+  .teamHeading p {
+    line-height: 15px;
+  }
+
+  .single-value h1 {
+    font-size: 18px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
 
