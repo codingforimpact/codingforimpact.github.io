@@ -184,7 +184,7 @@ input[type="text"] {
 
 @media screen and (max-width: 850px) {
   body {
-    overflow-x: hidden;
+    
   }
 
   #ourPhilosophy .container .row .section-heading .heading {
@@ -219,6 +219,16 @@ input[type="text"] {
 
   #globalPartners {
     padding: 10px;
+  }
+}
+
+.main-wrap-abt p {
+  text-align:justify; font-weight: 500;margin-left:27%; margin-right: 27%; font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 850px) {
+  .main-wrap-abt p {
+    font-size: 12px;
   }
 }
 
