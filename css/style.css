@@ -229,6 +229,16 @@ input[type="text"] {
 @media screen and (max-width: 850px) {
   .main-wrap-abt p {
     font-size: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .main-wrap-abt h1 {
+    font-size: 18px;
+  }
+
+  .main-wrap-abt img {
+    height: 60vh;
   }
 }
 
