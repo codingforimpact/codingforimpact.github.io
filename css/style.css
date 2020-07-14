@@ -173,6 +173,55 @@ input[type="text"] {
   font-size: 18px;
 }
 
+#ourPhilosophy .container .row .section-heading .heading {
+  font-size: 22px; text-align: center; color: #2a3035;
+}
+
+#ourPhilosophy .container .row .section-heading h4 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #ourPhilosophy .container .row .section-heading .heading {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #ourPhilosophy p {
+    font-size: 10px;
+    text-align: center;
+    margin-left:10%; 
+    margin-right:10%;
+  }
+
+  #ourPhilosophy .container .row .section-heading h4 {
+    font-size: 11px;
+    text-align: center;
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
+
+  #subscribeWrapper {
+    display: none;
+  }
+
+  #servedSection h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
+
+  #globalPartners {
+    padding: 10px;
+  }
+}
+
 hr {
   margin-left:40%;
   margin-right: 40%;

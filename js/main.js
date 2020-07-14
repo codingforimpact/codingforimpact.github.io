@@ -102,7 +102,9 @@ AOS.init({
   var OnePageNav = function() {
     var navToggler = $('.js-site-nav-toggle');
     $(".smoothscroll[href^='#'], #ftco-navbar ul li a[href^='#']").on('click', function(e) {
-      e.preventDefault();
+      if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+        e.preventDefault();
+       }
       var hash = this.hash;
         
       $('html, body').animate({
@@ -206,7 +208,10 @@ AOS.init({
   });
   
   $('.navbar .hover-background').mouseover(function(e) {
-    e.preventDefault();
+    if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+      e.preventDefault();
+     }
+     
     
     var scrollTop = $(window).scrollTop();
     var lowerNavbar = $('.secondary-nav .secondary-nav-inner');
