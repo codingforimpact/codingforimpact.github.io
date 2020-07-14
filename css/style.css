@@ -178,9 +178,23 @@ input[type="text"] {
   font-size: 20px;
 }
 
+#combattingInequality #topHeading {
+  font-size:45px; 
+  font-weight: bold;
+}
+
+#combattingInequality p {
+  text-align:justify; font-weight: 500;margin-left:20%; margin-right: 20%; font-family: Playfair Display, serif; color: black;
+}
+
+#headings .ourWorkHeading {
+  font-size: 28px; text-align: center; font-style: normal; line-height: 2.5;
+}
+
+
 @media screen and (max-width: 850px) {
   html, body {
-    overflow-x: hidden;
+    
   }
 
   #ourPhilosophy .container .row .section-heading .heading {
@@ -215,6 +229,41 @@ input[type="text"] {
 
   #globalPartners {
     padding: 10px;
+  }
+
+  #combattingInequality #topHeading {
+    font-size:24px; 
+    font-weight: bold;
+  }
+
+  #combattingInequality p {
+    font-size: 14px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .container-doubleimage img {
+    height: 30vh;
+  }
+
+  .container-doubleimage .btn {
+    height: 50%;
+    width: 80%;
+    font-size: 10px;
+    padding: auto;
+  }
+
+  #section-menu {
+    text-align: center;
+  }
+
+  #section-menu #description {
+   text-align: left;
+   margin-right: 8%;
+  }
+
+  .price {
+    display: none;
   }
 }
 
