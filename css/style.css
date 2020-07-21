@@ -199,6 +199,10 @@ input[type="text"] {
   font-size: 26px; text-align: center; ; line-height: 2.5;
 }
 
+#ourWorkValues p {  
+  text-align:justify; font-size: 18px; margin-left:20%; margin-right: 20%; font-family: Playfair Display, serif; color: black;
+}
+
 @media screen and (max-width: 850px) {
   html, body {
     
@@ -258,6 +262,10 @@ input[type="text"] {
     width: 80%;
     font-size: 10px;
     padding: auto;
+  }
+
+  #ourWorkValues div p {
+    font-size: 12px;
   }
 
   #section-menu {
